@@ -5,8 +5,9 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:DesktopClient"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
-    <Grid>
-        
+        Title="PhoneSimulator Clinet" Height="350" Width="525" FontFamily="Microsoft YaHei">
+    <Grid RenderTransformOrigin="0.518,0.357">
+        <Label x:Name="label" Content="Label" HorizontalAlignment="Left" Margin="368,10,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label1" Content="Label" HorizontalAlignment="Left" Margin="469,10,0,0" VerticalAlignment="Top"/>
     </Grid>
 </Window>
