@@ -6,8 +6,19 @@
         xmlns:local="clr-namespace:DesktopClient"
         mc:Ignorable="d"
         Title="PhoneSimulator Client" Height="350" Width="525" FontFamily="Microsoft YaHei">
+    <Window.Resources>
+        <Style TargetType="Button">
+            <Setter Property="Margin" Value="1"/>
+            
+        </Style>
+    </Window.Resources>
     <Grid RenderTransformOrigin="0.518,0.357">
-        <Label x:Name="label" Content="Label" HorizontalAlignment="Left" Margin="83,18,0,0" VerticalAlignment="Top"/>
-        <Label x:Name="label1" Content="Local IP:" HorizontalAlignment="Left" Margin="21,18,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="ipTag" Content="Local IP:" HorizontalAlignment="Left" Margin="21,18,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="localIP" Content="Label" HorizontalAlignment="Left" Margin="83,18,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="button" Content="Connect" HorizontalAlignment="Left" Margin="21,141,0,0" VerticalAlignment="Top" Width="75"/>
+        <Label x:Name="portTag" Content="Port:" HorizontalAlignment="Left" Margin="21,58,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.95,-0.115"/>
+        <Label x:Name="portNumber" Content="110000" HorizontalAlignment="Left" Margin="83,58,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.95,-0.115"/>
+        <Label x:Name="connectionStatusTag" Content="Connection Status: " HorizontalAlignment="Left" Margin="21,210,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.95,-0.115"/>
+        <Label x:Name="connectionStatus" Content="Connection Status: " HorizontalAlignment="Left" Margin="187,210,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.95,-0.115"/>
     </Grid>
 </Window>

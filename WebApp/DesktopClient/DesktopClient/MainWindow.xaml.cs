@@ -24,36 +24,17 @@ namespace DesktopClient
     {
         public MainWindow()
         {
-            String localIP = getIP();
+            String localIP = "?";
 
             InitializeComponent();
 
-            this.label.Content = localIP;
+            //Credit: https://stackoverflow.com/questions/3253701/get-public-external-ip-address 
+            localIP = new System.Net.WebClient().DownloadString("https://api.ipify.org");
+            this.localIP.Content = localIP;
 
             
         }
 
-        //Credit: https://stackoverflow.com/questions/23128905/getting-local-host-ip-address
-        public static string getIP()
-        {
-
-            IPHostEntry host;
-
-            string localIP = "?";
-
-            host = Dns.GetHostEntry(Dns.GetHostName());
-
-            foreach (IPAddress ip in host.AddressList)
-            {
-                if (ip.AddressFamily == AddressFamily.InterNetwork)
-                {
-
-                    localIP = ip.ToString();
-                }
-            }
-
-            return localIP;
-
-        }
+       
     }
 }
