@@ -4,6 +4,7 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:DesktopClient"
+        xmlns:sys="clr-namespace:System;assembly=mscorlib"
         mc:Ignorable="d"
         Title="PhoneSimulator Client" Height="350" Width="525" FontFamily="Microsoft YaHei">
     <Window.Resources>
@@ -11,11 +12,13 @@
             <Setter Property="Margin" Value="1"/>
             
         </Style>
+        
+
     </Window.Resources>
     <Grid RenderTransformOrigin="0.518,0.357">
         <Label x:Name="ipTag" Content="Local IP:" HorizontalAlignment="Left" Margin="21,18,0,0" VerticalAlignment="Top"/>
         <Label x:Name="localIP" Content="Label" HorizontalAlignment="Left" Margin="83,18,0,0" VerticalAlignment="Top"/>
-        <Button x:Name="button" Content="Connect" HorizontalAlignment="Left" Margin="21,141,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button x:Name="btnConnect" Content="Connect" HorizontalAlignment="Left" Margin="21,141,0,0" VerticalAlignment="Top" Width="75" Click="btnConnect_Click"/>
         <Label x:Name="portTag" Content="Port:" HorizontalAlignment="Left" Margin="21,58,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.95,-0.115"/>
         <Label x:Name="portNumber" Content="110000" HorizontalAlignment="Left" Margin="83,58,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.95,-0.115"/>
         <Label x:Name="connectionStatusTag" Content="Connection Status: " HorizontalAlignment="Left" Margin="21,210,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.95,-0.115"/>
