@@ -13,8 +13,7 @@ using System.Linq;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
-
-
+using System.Windows.Controls;
 
 namespace DesktopClient
 {
@@ -37,7 +36,7 @@ namespace DesktopClient
 
     public class AsynchSocketListener
     {
-        public const int port = 11000;
+        public const int port = 8417;
         
         //Thread signal.
         public static ManualResetEvent allDone = new ManualResetEvent(false);
@@ -71,6 +70,12 @@ namespace DesktopClient
 
                     //Start an asynch socket to listen for connections.              
                     Console.WriteLine("Waiting for a connection . . .");
+
+                    //Invoke UI thread.
+                    App.Current.Dispatcher.Invoke( () => {
+                        Label conStatusBox = (Label) App.Current.MainWindow.FindName("connectionStatus");
+                        conStatusBox.Content = "Waiting for a connection . . .";                      
+                    });
       
                     listener.BeginAccept(
                         new AsyncCallback(AcceptCallback), 

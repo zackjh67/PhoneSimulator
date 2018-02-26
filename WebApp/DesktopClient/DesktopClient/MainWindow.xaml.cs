@@ -36,8 +36,7 @@ namespace DesktopClient
             localIP = new System.Net.WebClient().DownloadString("https://api.ipify.org");
             this.localIP.Content = localIP;
 
-            
-            
+                   
         }
 
         private void btnConnect_Click(object sender, RoutedEventArgs e)
