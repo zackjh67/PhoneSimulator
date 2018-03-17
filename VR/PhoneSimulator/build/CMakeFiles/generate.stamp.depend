@@ -1,0 +1,59 @@
+# CMake generation dependency list for this directory.
+C:/Users/Zack/Documents/PhoneSimulator - Copy/VR/PhoneSimulator/CMakeLists.txt
+C:/Users/Zack/Documents/PhoneSimulator - Copy/VR/PhoneSimulator/build/CMakeFiles/3.10.0-rc1/CMakeSystem.cmake
+C:/Program Files/CMake/share/cmake-3.10/Modules/CMakeSystemSpecificInitialize.cmake
+C:/Users/Zack/Documents/PhoneSimulator - Copy/VR/PhoneSimulator/build/CMakeFiles/3.10.0-rc1/CMakeCCompiler.cmake
+C:/Users/Zack/Documents/PhoneSimulator - Copy/VR/PhoneSimulator/build/CMakeFiles/3.10.0-rc1/CMakeCXXCompiler.cmake
+C:/Program Files/CMake/share/cmake-3.10/Modules/CMakeSystemSpecificInformation.cmake
+C:/Program Files/CMake/share/cmake-3.10/Modules/CMakeGenericSystem.cmake
+C:/Program Files/CMake/share/cmake-3.10/Modules/Platform/Windows.cmake
+C:/Program Files/CMake/share/cmake-3.10/Modules/Platform/WindowsPaths.cmake
+C:/Program Files/CMake/share/cmake-3.10/Modules/CMakeCInformation.cmake
+C:/Program Files/CMake/share/cmake-3.10/Modules/CMakeLanguageInformation.cmake
+C:/Program Files/CMake/share/cmake-3.10/Modules/Platform/Windows-MSVC-C.cmake
+C:/Program Files/CMake/share/cmake-3.10/Modules/Platform/Windows-MSVC.cmake
+C:/Users/Zack/Documents/PhoneSimulator - Copy/VR/PhoneSimulator/build/CMakeFiles/3.10.0-rc1/CMakeRCCompiler.cmake
+C:/Program Files/CMake/share/cmake-3.10/Modules/CMakeRCInformation.cmake
+C:/Program Files/CMake/share/cmake-3.10/Modules/CMakeCommonLanguageInclude.cmake
+C:/Program Files/CMake/share/cmake-3.10/Modules/CMakeCXXInformation.cmake
+C:/Program Files/CMake/share/cmake-3.10/Modules/CMakeLanguageInformation.cmake
+C:/Program Files/CMake/share/cmake-3.10/Modules/Compiler/MSVC-CXX.cmake
+C:/Program Files/CMake/share/cmake-3.10/Modules/Compiler/CMakeCommonCompilerMacros.cmake
+C:/Program Files/CMake/share/cmake-3.10/Modules/Platform/Windows-MSVC-CXX.cmake
+C:/Program Files/CMake/share/cmake-3.10/Modules/Platform/Windows-MSVC.cmake
+C:/Program Files/CMake/share/cmake-3.10/Modules/CMakeCommonLanguageInclude.cmake
+C:/Program Files/CMake/share/cmake-3.10/Modules/FindOpenGL.cmake
+C:/Program Files/CMake/share/cmake-3.10/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-3.10/Modules/FindPackageMessage.cmake
+E:/Qt/Qt5.6.3/5.6.3/msvc2013_64/lib/cmake/Qt5/Qt5ConfigVersion.cmake
+E:/Qt/Qt5.6.3/5.6.3/msvc2013_64/lib/cmake/Qt5/Qt5Config.cmake
+E:/Qt/Qt5.6.3/5.6.3/msvc2013_64/lib/cmake/Qt5Core/Qt5CoreConfigVersion.cmake
+E:/Qt/Qt5.6.3/5.6.3/msvc2013_64/lib/cmake/Qt5Core/Qt5CoreConfig.cmake
+E:/Qt/Qt5.6.3/5.6.3/msvc2013_64/lib/cmake/Qt5Core/Qt5CoreConfigExtras.cmake
+E:/Qt/Qt5.6.3/5.6.3/msvc2013_64/lib/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake
+E:/Qt/Qt5.6.3/5.6.3/msvc2013_64/lib/cmake/Qt5Core/Qt5CoreMacros.cmake
+C:/Program Files/CMake/share/cmake-3.10/Modules/CMakeParseArguments.cmake
+E:/Qt/Qt5.6.3/5.6.3/msvc2013_64/lib/cmake/Qt5/Qt5ConfigVersion.cmake
+E:/Qt/Qt5.6.3/5.6.3/msvc2013_64/lib/cmake/Qt5/Qt5Config.cmake
+E:/Qt/Qt5.6.3/5.6.3/msvc2013_64/lib/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake
+E:/Qt/Qt5.6.3/5.6.3/msvc2013_64/lib/cmake/Qt5Gui/Qt5GuiConfig.cmake
+E:/Qt/Qt5.6.3/5.6.3/msvc2013_64/lib/cmake/Qt5Gui/Qt5Gui_QGifPlugin.cmake
+E:/Qt/Qt5.6.3/5.6.3/msvc2013_64/lib/cmake/Qt5Gui/Qt5Gui_QICNSPlugin.cmake
+E:/Qt/Qt5.6.3/5.6.3/msvc2013_64/lib/cmake/Qt5Gui/Qt5Gui_QICOPlugin.cmake
+E:/Qt/Qt5.6.3/5.6.3/msvc2013_64/lib/cmake/Qt5Gui/Qt5Gui_QJpegPlugin.cmake
+E:/Qt/Qt5.6.3/5.6.3/msvc2013_64/lib/cmake/Qt5Gui/Qt5Gui_QMinimalIntegrationPlugin.cmake
+E:/Qt/Qt5.6.3/5.6.3/msvc2013_64/lib/cmake/Qt5Gui/Qt5Gui_QOffscreenIntegrationPlugin.cmake
+E:/Qt/Qt5.6.3/5.6.3/msvc2013_64/lib/cmake/Qt5Gui/Qt5Gui_QTgaPlugin.cmake
+E:/Qt/Qt5.6.3/5.6.3/msvc2013_64/lib/cmake/Qt5Gui/Qt5Gui_QTiffPlugin.cmake
+E:/Qt/Qt5.6.3/5.6.3/msvc2013_64/lib/cmake/Qt5Gui/Qt5Gui_QTuioTouchPlugin.cmake
+E:/Qt/Qt5.6.3/5.6.3/msvc2013_64/lib/cmake/Qt5Gui/Qt5Gui_QWbmpPlugin.cmake
+E:/Qt/Qt5.6.3/5.6.3/msvc2013_64/lib/cmake/Qt5Gui/Qt5Gui_QWebpPlugin.cmake
+E:/Qt/Qt5.6.3/5.6.3/msvc2013_64/lib/cmake/Qt5Gui/Qt5Gui_QWindowsIntegrationPlugin.cmake
+E:/Qt/Qt5.6.3/5.6.3/msvc2013_64/lib/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake
+E:/Qt/Qt5.6.3/5.6.3/msvc2013_64/lib/cmake/Qt5/Qt5ConfigVersion.cmake
+E:/Qt/Qt5.6.3/5.6.3/msvc2013_64/lib/cmake/Qt5/Qt5Config.cmake
+E:/Qt/Qt5.6.3/5.6.3/msvc2013_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake
+E:/Qt/Qt5.6.3/5.6.3/msvc2013_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake
+E:/Qt/Qt5.6.3/5.6.3/msvc2013_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake
+E:/Qt/Qt5.6.3/5.6.3/msvc2013_64/lib/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake
+C:/Program Files/CMake/share/cmake-3.10/Modules/CMakeParseArguments.cmake

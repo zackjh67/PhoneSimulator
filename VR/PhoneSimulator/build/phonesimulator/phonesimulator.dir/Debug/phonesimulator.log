@@ -1,0 +1,46 @@
+﻿Build started 3/17/2018 12:05:55 AM.
+     1>Project "C:\Users\Zack\Documents\PhoneSimulator - Copy\VR\PhoneSimulator\build\phonesimulator\phonesimulator.vcxproj" on node 2 (Build target(s)).
+     1>PreBuildEvent:
+         setlocal
+         cd "C:\Users\Zack\Documents\PhoneSimulator - Copy\VR\PhoneSimulator\build\phonesimulator"
+         if %errorlevel% neq 0 goto :cmEnd
+         C:
+         if %errorlevel% neq 0 goto :cmEnd
+         "C:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen "C:/Users/Zack/Documents/PhoneSimulator - Copy/VR/PhoneSimulator/build/phonesimulator/CMakeFiles/phonesimulator_autogen.dir" Debug
+         if %errorlevel% neq 0 goto :cmEnd
+         :cmEnd
+         endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+         :cmErrorLevel
+         exit /b %1
+         :cmDone
+         if %errorlevel% neq 0 goto :VCEnd
+         :VCEnd
+       CustomBuild:
+         Building Custom Rule C:/Users/Zack/Documents/PhoneSimulator - Copy/VR/PhoneSimulator/phonesimulator/CMakeLists.txt
+         CMake does not need to re-run because C:/Users/Zack/Documents/PhoneSimulator - Copy/VR/PhoneSimulator/build/phonesimulator/CMakeFiles/generate.stamp is up-to-date.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I"C:\Users\Zack\Documents\PhoneSimulator - Copy\VR\PhoneSimulator\build\phonesimulator" /I"C:\Users\Zack\Documents\PhoneSimulator - Copy\VR\PhoneSimulator\phonesimulator" /I"C:\Users\Zack\Documents\PhoneSimulator - Copy\VR\PhoneSimulator\build\phonesimulator\phonesimulator_autogen\include_Debug" /I"C:\Users\Zack\Documents\PhoneSimulator - Copy\VR\PhoneSimulator\." /I"C:\Users\Zack\Documents\PhoneSimulator - Copy\VR\PhoneSimulator\thirdparty\glew\glew-1.11.0\include" /I"C:\Users\Zack\Documents\PhoneSimulator - Copy\VR\PhoneSimulator\thirdparty\sdl2-2.0.3\include" /IE:\Qt\Qt5.6.3\5.6.3\msvc2013_64\include /IE:\Qt\Qt5.6.3\5.6.3\msvc2013_64\include\QtCore /I"E:\Qt\Qt5.6.3\5.6.3\msvc2013_64\.\mkspecs\win32-msvc2013" /IE:\Qt\Qt5.6.3\5.6.3\msvc2013_64\include\QtGui /IE:\Qt\Qt5.6.3\5.6.3\msvc2013_64\include\QtWidgets /I"C:\Users\Zack\Documents\PhoneSimulator - Copy\VR\PhoneSimulator\..\headers" /I"C:\Users\Zack\Documents\PhoneSimulator - Copy\VR\PhoneSimulator\thirdparty\vulkan-1.0.49.0\include" /Zi /nologo /W2 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D EBUG /D _WIN32 /D QT_CORE_LIB /D QT_GUI_LIB /D QT_WIDGETS_LIB /D QT_NO_DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"phonesimulator.dir\Debug\\" /Fd"phonesimulator.dir\Debug\vc120.pdb" /Gd /TP /errorReport:prompt "C:\Users\Zack\Documents\PhoneSimulator - Copy\VR\PhoneSimulator\shared\Matrices.cpp" "C:\Users\Zack\Documents\PhoneSimulator - Copy\VR\PhoneSimulator\shared\lodepng.cpp" "C:\Users\Zack\Documents\PhoneSimulator - Copy\VR\PhoneSimulator\shared\pathtools.cpp" "C:\Users\Zack\Documents\PhoneSimulator - Copy\VR\PhoneSimulator\shared\strtools.cpp" "C:\Users\Zack\Documents\PhoneSimulator - Copy\VR\PhoneSimulator\phonesimulator\main.cpp" "C:\Users\Zack\Documents\PhoneSimulator - Copy\VR\PhoneSimulator\phonesimulator\vrcontroller.cpp" "C:\Users\Zack\Documents\PhoneSimulator - Copy\VR\PhoneSimulator\phonesimulator\mainscreen.cpp" "C:\Users\Zack\Documents\PhoneSimulator - Copy\VR\PhoneSimulator\build\phonesimulator\phonesimulator_autogen\mocs_compilation.cpp"
+         Matrices.cpp
+         lodepng.cpp
+         pathtools.cpp
+         strtools.cpp
+         main.cpp
+         vrcontroller.cpp
+         mainscreen.cpp
+         mocs_compilation.cpp
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Zack\Documents\PhoneSimulator - Copy\VR\PhoneSimulator\bin\win64\phonesimulator.exe" /INCREMENTAL /NOLOGO E:\Qt\Qt5.6.3\5.6.3\msvc2013_64\lib\Qt5Widgetsd.lib "C:\Users\Zack\Documents\PhoneSimulator - Copy\VR\lib\win64\openvr_api.lib" E:\Qt\Qt5.6.3\5.6.3\msvc2013_64\lib\Qt5Guid.lib E:\Qt\Qt5.6.3\5.6.3\msvc2013_64\lib\Qt5Cored.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Zack/Documents/PhoneSimulator - Copy/VR/PhoneSimulator/bin/win64/phonesimulator.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Zack/Documents/PhoneSimulator - Copy/VR/PhoneSimulator/bin/win64/phonesimulator.lib" /MACHINE:X64  /machine:x64 phonesimulator.dir\Debug\Matrices.obj
+         phonesimulator.dir\Debug\lodepng.obj
+         phonesimulator.dir\Debug\pathtools.obj
+         phonesimulator.dir\Debug\strtools.obj
+         phonesimulator.dir\Debug\main.obj
+         phonesimulator.dir\Debug\vrcontroller.obj
+         phonesimulator.dir\Debug\mainscreen.obj
+         phonesimulator.dir\Debug\mocs_compilation.obj
+         phonesimulator.vcxproj -> C:\Users\Zack\Documents\PhoneSimulator - Copy\VR\PhoneSimulator\bin\win64\phonesimulator.exe
+     1>Done Building Project "C:\Users\Zack\Documents\PhoneSimulator - Copy\VR\PhoneSimulator\build\phonesimulator\phonesimulator.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:07.75
