@@ -33,8 +33,8 @@ namespace DesktopClient
             InitializeComponent();
 
             //Credit: https://stackoverflow.com/questions/3253701/get-public-external-ip-address 
-            localIP = new System.Net.WebClient().DownloadString("https://api.ipify.org");
-            this.localIP.Content = localIP;
+            //localIP = new System.Net.WebClient().DownloadString("https://api.ipify.org");
+            this.localIP.Content = getIP();
 
                    
         }
@@ -45,6 +45,22 @@ namespace DesktopClient
             btnConnect.IsEnabled = false;
             Task.Factory.StartNew(() => { AsynchSocketListener.StartListening(); });
     
+        }
+
+        //Credit: https://stackoverflow.com/questions/23128905/getting-local-host-ip-address
+        public static string getIP()
+        {
+            IPHostEntry host;
+
+            string localIP = "?";
+
+            host = Dns.GetHostEntry(Dns.GetHostName());
+
+          
+
+            localIP = host.AddressList[2].MapToIPv4().ToString();
+
+            return localIP;
         }
 
         

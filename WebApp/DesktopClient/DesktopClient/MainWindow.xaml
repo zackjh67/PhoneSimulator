@@ -10,18 +10,32 @@
     <Window.Resources>
         <Style TargetType="Button">
             <Setter Property="Margin" Value="1"/>
-            
+
         </Style>
-        
+
 
     </Window.Resources>
     <Grid RenderTransformOrigin="0.518,0.357">
-        <Label x:Name="ipTag" Content="Local IP:" HorizontalAlignment="Left" Margin="21,18,0,0" VerticalAlignment="Top"/>
-        <Label x:Name="localIP" Content="Label" HorizontalAlignment="Left" Margin="83,18,0,0" VerticalAlignment="Top"/>
-        <Button x:Name="btnConnect" Content="Connect" HorizontalAlignment="Left" Margin="21,141,0,0" VerticalAlignment="Top" Width="75" Click="btnConnect_Click"/>
-        <Label x:Name="portTag" Content="Port:" HorizontalAlignment="Left" Margin="21,58,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.95,-0.115"/>
-        <Label x:Name="portNumber" Content="110000" HorizontalAlignment="Left" Margin="83,58,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.95,-0.115"/>
-        <Label x:Name="connectionStatusTag" Content="Connection Status: " HorizontalAlignment="Left" Margin="21,210,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.95,-0.115"/>
-        <Label x:Name="connectionStatus" Content="Connection Status: " HorizontalAlignment="Left" Margin="187,210,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.95,-0.115"/>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <DockPanel Grid.Column="0" Background="#FF2A363F">
+            <StackPanel>
+                <Button Content="Connection"/>
+                <Button Content="Conversations"/>
+                <Button Content="Notifications"/>
+            </StackPanel>
+        </DockPanel>
+        <Label x:Name="ipTag" Content="Local IP:" HorizontalAlignment="Left" Margin="32,56,0,0" VerticalAlignment="Top" Grid.Column="1"/>
+        <Label x:Name="localIP" Content="Label" HorizontalAlignment="Left" Margin="94,56,0,0" VerticalAlignment="Top" Grid.ColumnSpan="2" Grid.Column="1"/>
+        <Button x:Name="btnConnect" Content="Start Server" HorizontalAlignment="Left" Margin="32,162,0,0" VerticalAlignment="Top" Width="75" Click="btnConnect_Click" Grid.Column="1"/>
+        <Label x:Name="portTag" Content="Port:" HorizontalAlignment="Left" Margin="32,105,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.95,-0.115" Grid.Column="1"/>
+        <Label x:Name="portNumber" Content="8417" HorizontalAlignment="Left" Margin="91,105,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.95,-0.115" Grid.Column="1"/>
+        <Label x:Name="connectionStatusTag" Content="Connection Status: " HorizontalAlignment="Left" Margin="32,230,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.95,-0.115" Grid.ColumnSpan="2" Grid.Column="1"/>
+        <Label x:Name="connectionStatus" Content="Disconnected" HorizontalAlignment="Left" Margin="43,230,0,49" RenderTransformOrigin="0.95,-0.115" Grid.Column="2" Grid.ColumnSpan="2" Width="193"/>
+
     </Grid>
 </Window>
