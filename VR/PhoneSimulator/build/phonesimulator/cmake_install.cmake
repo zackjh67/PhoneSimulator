@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/Zack/Documents/PhoneSimulator - Copy/VR/PhoneSimulator/phonesimulator
+# Install script for directory: C:/Users/Zack/Documents/PhoneSimulator/VR/PhoneSimulator/phonesimulator
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

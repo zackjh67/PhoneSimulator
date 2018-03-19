@@ -19,8 +19,8 @@
 
 QT_BEGIN_MOC_NAMESPACE
 struct qt_meta_stringdata_MainScreen_t {
-    QByteArrayData data[6];
-    char stringdata0[86];
+    QByteArrayData data[9];
+    char stringdata0[146];
 };
 #define QT_MOC_LITERAL(idx, ofs, len) \
     Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
@@ -30,16 +30,20 @@ struct qt_meta_stringdata_MainScreen_t {
 static const qt_meta_stringdata_MainScreen_t qt_meta_stringdata_MainScreen = {
     {
 QT_MOC_LITERAL(0, 0, 10), // "MainScreen"
-QT_MOC_LITERAL(1, 11, 21), // "on_pushButton_clicked"
-QT_MOC_LITERAL(2, 33, 0), // ""
-QT_MOC_LITERAL(3, 34, 21), // "on_sendButton_clicked"
-QT_MOC_LITERAL(4, 56, 24), // "on_label_2_linkActivated"
-QT_MOC_LITERAL(5, 81, 4) // "link"
+QT_MOC_LITERAL(1, 11, 13), // "onNotifPosted"
+QT_MOC_LITERAL(2, 25, 0), // ""
+QT_MOC_LITERAL(3, 26, 12), // "notification"
+QT_MOC_LITERAL(4, 39, 24), // "on_connectButton_clicked"
+QT_MOC_LITERAL(5, 64, 21), // "on_sendButton_clicked"
+QT_MOC_LITERAL(6, 86, 37), // "on_notificationListWidget_ite..."
+QT_MOC_LITERAL(7, 124, 16), // "QListWidgetItem*"
+QT_MOC_LITERAL(8, 141, 4) // "item"
 
     },
-    "MainScreen\0on_pushButton_clicked\0\0"
-    "on_sendButton_clicked\0on_label_2_linkActivated\0"
-    "link"
+    "MainScreen\0onNotifPosted\0\0notification\0"
+    "on_connectButton_clicked\0on_sendButton_clicked\0"
+    "on_notificationListWidget_itemClicked\0"
+    "QListWidgetItem*\0item"
 };
 #undef QT_MOC_LITERAL
 
@@ -49,7 +53,7 @@ static const uint qt_meta_data_MainScreen[] = {
        7,       // revision
        0,       // classname
        0,    0, // classinfo
-       3,   14, // methods
+       4,   14, // methods
        0,    0, // properties
        0,    0, // enums/sets
        0,    0, // constructors
@@ -57,14 +61,16 @@ static const uint qt_meta_data_MainScreen[] = {
        0,       // signalCount
 
  // slots: name, argc, parameters, tag, flags
-       1,    0,   29,    2, 0x08 /* Private */,
-       3,    0,   30,    2, 0x08 /* Private */,
-       4,    1,   31,    2, 0x08 /* Private */,
+       1,    1,   34,    2, 0x0a /* Public */,
+       4,    0,   37,    2, 0x08 /* Private */,
+       5,    0,   38,    2, 0x08 /* Private */,
+       6,    1,   39,    2, 0x08 /* Private */,
 
  // slots: parameters
+    QMetaType::Void, QMetaType::QString,    3,
     QMetaType::Void,
     QMetaType::Void,
-    QMetaType::Void, QMetaType::QString,    5,
+    QMetaType::Void, 0x80000000 | 7,    8,
 
        0        // eod
 };
@@ -75,9 +81,10 @@ void MainScreen::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, 
         MainScreen *_t = static_cast<MainScreen *>(_o);
         Q_UNUSED(_t)
         switch (_id) {
-        case 0: _t->on_pushButton_clicked(); break;
-        case 1: _t->on_sendButton_clicked(); break;
-        case 2: _t->on_label_2_linkActivated((*reinterpret_cast< const QString(*)>(_a[1]))); break;
+        case 0: _t->onNotifPosted((*reinterpret_cast< QString(*)>(_a[1]))); break;
+        case 1: _t->on_connectButton_clicked(); break;
+        case 2: _t->on_sendButton_clicked(); break;
+        case 3: _t->on_notificationListWidget_itemClicked((*reinterpret_cast< QListWidgetItem*(*)>(_a[1]))); break;
         default: ;
         }
     }
@@ -108,13 +115,13 @@ int MainScreen::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
-        if (_id < 3)
+        if (_id < 4)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 3;
+        _id -= 4;
     } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
-        if (_id < 3)
+        if (_id < 4)
             *reinterpret_cast<int*>(_a[0]) = -1;
-        _id -= 3;
+        _id -= 4;
     }
     return _id;
 }

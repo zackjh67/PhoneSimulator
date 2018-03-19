@@ -19,7 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{AB0D95A3-6E81-363B-8032-EC9AE477C1F0}</ProjectGuid>
+    <ProjectGuid>{C5A91199-91EF-39DE-B872-5572F3B07B89}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <Platform>x64</Platform>
     <ProjectName>phonesimulator</ProjectName>
@@ -55,25 +55,25 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Zack\Documents\PhoneSimulator - Copy\VR\PhoneSimulator\bin\win64\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Zack\Documents\PhoneSimulator\VR\PhoneSimulator\bin\win64\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">phonesimulator.dir\Debug\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">phonesimulator</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Zack\Documents\PhoneSimulator - Copy\VR\PhoneSimulator\bin\win64\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Zack\Documents\PhoneSimulator\VR\PhoneSimulator\bin\win64\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">phonesimulator.dir\Release\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">phonesimulator</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Zack\Documents\PhoneSimulator - Copy\VR\PhoneSimulator\bin\win64\MinSizeRel\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Zack\Documents\PhoneSimulator\VR\PhoneSimulator\bin\win64\MinSizeRel\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">phonesimulator.dir\MinSizeRel\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">phonesimulator</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Zack\Documents\PhoneSimulator - Copy\VR\PhoneSimulator\bin\win64\RelWithDebInfo\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Zack\Documents\PhoneSimulator\VR\PhoneSimulator\bin\win64\RelWithDebInfo\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">phonesimulator.dir\RelWithDebInfo\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">phonesimulator</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
@@ -82,7 +82,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\Zack\Documents\PhoneSimulator - Copy\VR\PhoneSimulator\build\phonesimulator;C:\Users\Zack\Documents\PhoneSimulator - Copy\VR\PhoneSimulator\phonesimulator;C:\Users\Zack\Documents\PhoneSimulator - Copy\VR\PhoneSimulator\build\phonesimulator\phonesimulator_autogen\include_Debug;C:\Users\Zack\Documents\PhoneSimulator - Copy\VR\PhoneSimulator\.;C:\Users\Zack\Documents\PhoneSimulator - Copy\VR\PhoneSimulator\thirdparty\glew\glew-1.11.0\include;C:\Users\Zack\Documents\PhoneSimulator - Copy\VR\PhoneSimulator\thirdparty\sdl2-2.0.3\include;E:\Qt\Qt5.6.3\5.6.3\msvc2013_64\include;E:\Qt\Qt5.6.3\5.6.3\msvc2013_64\include\QtCore;E:\Qt\Qt5.6.3\5.6.3\msvc2013_64\.\mkspecs\win32-msvc2013;E:\Qt\Qt5.6.3\5.6.3\msvc2013_64\include\QtGui;E:\Qt\Qt5.6.3\5.6.3\msvc2013_64\include\QtWidgets;C:\Users\Zack\Documents\PhoneSimulator - Copy\VR\PhoneSimulator\..\headers;C:\Users\Zack\Documents\PhoneSimulator - Copy\VR\PhoneSimulator\thirdparty\vulkan-1.0.49.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Zack\Documents\PhoneSimulator\VR\PhoneSimulator\build\phonesimulator;C:\Users\Zack\Documents\PhoneSimulator\VR\PhoneSimulator\phonesimulator;C:\Users\Zack\Documents\PhoneSimulator\VR\PhoneSimulator\build\phonesimulator\phonesimulator_autogen\include_Debug;C:\Users\Zack\Documents\PhoneSimulator\VR\PhoneSimulator\.;C:\Users\Zack\Documents\PhoneSimulator\VR\PhoneSimulator\thirdparty\glew\glew-1.11.0\include;C:\Users\Zack\Documents\PhoneSimulator\VR\PhoneSimulator\thirdparty\sdl2-2.0.3\include;E:\Qt\Qt5.6.3\5.6.3\msvc2013_64\include;E:\Qt\Qt5.6.3\5.6.3\msvc2013_64\include\QtCore;E:\Qt\Qt5.6.3\5.6.3\msvc2013_64\.\mkspecs\win32-msvc2013;E:\Qt\Qt5.6.3\5.6.3\msvc2013_64\include\QtGui;E:\Qt\Qt5.6.3\5.6.3\msvc2013_64\include\QtWidgets;C:\Users\Zack\Documents\PhoneSimulator\VR\PhoneSimulator\..\headers;C:\Users\Zack\Documents\PhoneSimulator\VR\PhoneSimulator\thirdparty\vulkan-1.0.49.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>Debug/</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <CompileAs>CompileAsCpp</CompileAs>
@@ -99,10 +99,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;EBUG;_WIN32;QT_CORE_LIB;QT_GUI_LIB;QT_WIDGETS_LIB;QT_NO_DEBUG;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\Zack\Documents\PhoneSimulator - Copy\VR\PhoneSimulator\build\phonesimulator;C:\Users\Zack\Documents\PhoneSimulator - Copy\VR\PhoneSimulator\phonesimulator;C:\Users\Zack\Documents\PhoneSimulator - Copy\VR\PhoneSimulator\build\phonesimulator\phonesimulator_autogen\include_Debug;C:\Users\Zack\Documents\PhoneSimulator - Copy\VR\PhoneSimulator\.;C:\Users\Zack\Documents\PhoneSimulator - Copy\VR\PhoneSimulator\thirdparty\glew\glew-1.11.0\include;C:\Users\Zack\Documents\PhoneSimulator - Copy\VR\PhoneSimulator\thirdparty\sdl2-2.0.3\include;E:\Qt\Qt5.6.3\5.6.3\msvc2013_64\include;E:\Qt\Qt5.6.3\5.6.3\msvc2013_64\include\QtCore;E:\Qt\Qt5.6.3\5.6.3\msvc2013_64\.\mkspecs\win32-msvc2013;E:\Qt\Qt5.6.3\5.6.3\msvc2013_64\include\QtGui;E:\Qt\Qt5.6.3\5.6.3\msvc2013_64\include\QtWidgets;C:\Users\Zack\Documents\PhoneSimulator - Copy\VR\PhoneSimulator\..\headers;C:\Users\Zack\Documents\PhoneSimulator - Copy\VR\PhoneSimulator\thirdparty\vulkan-1.0.49.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Zack\Documents\PhoneSimulator\VR\PhoneSimulator\build\phonesimulator;C:\Users\Zack\Documents\PhoneSimulator\VR\PhoneSimulator\phonesimulator;C:\Users\Zack\Documents\PhoneSimulator\VR\PhoneSimulator\build\phonesimulator\phonesimulator_autogen\include_Debug;C:\Users\Zack\Documents\PhoneSimulator\VR\PhoneSimulator\.;C:\Users\Zack\Documents\PhoneSimulator\VR\PhoneSimulator\thirdparty\glew\glew-1.11.0\include;C:\Users\Zack\Documents\PhoneSimulator\VR\PhoneSimulator\thirdparty\sdl2-2.0.3\include;E:\Qt\Qt5.6.3\5.6.3\msvc2013_64\include;E:\Qt\Qt5.6.3\5.6.3\msvc2013_64\include\QtCore;E:\Qt\Qt5.6.3\5.6.3\msvc2013_64\.\mkspecs\win32-msvc2013;E:\Qt\Qt5.6.3\5.6.3\msvc2013_64\include\QtGui;E:\Qt\Qt5.6.3\5.6.3\msvc2013_64\include\QtWidgets;C:\Users\Zack\Documents\PhoneSimulator\VR\PhoneSimulator\..\headers;C:\Users\Zack\Documents\PhoneSimulator\VR\PhoneSimulator\thirdparty\vulkan-1.0.49.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\Zack\Documents\PhoneSimulator - Copy\VR\PhoneSimulator\build\phonesimulator;C:\Users\Zack\Documents\PhoneSimulator - Copy\VR\PhoneSimulator\phonesimulator;C:\Users\Zack\Documents\PhoneSimulator - Copy\VR\PhoneSimulator\build\phonesimulator\phonesimulator_autogen\include_Debug;C:\Users\Zack\Documents\PhoneSimulator - Copy\VR\PhoneSimulator\.;C:\Users\Zack\Documents\PhoneSimulator - Copy\VR\PhoneSimulator\thirdparty\glew\glew-1.11.0\include;C:\Users\Zack\Documents\PhoneSimulator - Copy\VR\PhoneSimulator\thirdparty\sdl2-2.0.3\include;E:\Qt\Qt5.6.3\5.6.3\msvc2013_64\include;E:\Qt\Qt5.6.3\5.6.3\msvc2013_64\include\QtCore;E:\Qt\Qt5.6.3\5.6.3\msvc2013_64\.\mkspecs\win32-msvc2013;E:\Qt\Qt5.6.3\5.6.3\msvc2013_64\include\QtGui;E:\Qt\Qt5.6.3\5.6.3\msvc2013_64\include\QtWidgets;C:\Users\Zack\Documents\PhoneSimulator - Copy\VR\PhoneSimulator\..\headers;C:\Users\Zack\Documents\PhoneSimulator - Copy\VR\PhoneSimulator\thirdparty\vulkan-1.0.49.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Zack\Documents\PhoneSimulator\VR\PhoneSimulator\build\phonesimulator;C:\Users\Zack\Documents\PhoneSimulator\VR\PhoneSimulator\phonesimulator;C:\Users\Zack\Documents\PhoneSimulator\VR\PhoneSimulator\build\phonesimulator\phonesimulator_autogen\include_Debug;C:\Users\Zack\Documents\PhoneSimulator\VR\PhoneSimulator\.;C:\Users\Zack\Documents\PhoneSimulator\VR\PhoneSimulator\thirdparty\glew\glew-1.11.0\include;C:\Users\Zack\Documents\PhoneSimulator\VR\PhoneSimulator\thirdparty\sdl2-2.0.3\include;E:\Qt\Qt5.6.3\5.6.3\msvc2013_64\include;E:\Qt\Qt5.6.3\5.6.3\msvc2013_64\include\QtCore;E:\Qt\Qt5.6.3\5.6.3\msvc2013_64\.\mkspecs\win32-msvc2013;E:\Qt\Qt5.6.3\5.6.3\msvc2013_64\include\QtGui;E:\Qt\Qt5.6.3\5.6.3\msvc2013_64\include\QtWidgets;C:\Users\Zack\Documents\PhoneSimulator\VR\PhoneSimulator\..\headers;C:\Users\Zack\Documents\PhoneSimulator\VR\PhoneSimulator\thirdparty\vulkan-1.0.49.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -112,11 +112,11 @@
     <PreBuildEvent>
       <Message>Automatic MOC and UIC for target phonesimulator</Message>
       <Command>setlocal
-cd "C:\Users\Zack\Documents\PhoneSimulator - Copy\VR\PhoneSimulator\build\phonesimulator"
+cd C:\Users\Zack\Documents\PhoneSimulator\VR\PhoneSimulator\build\phonesimulator
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen "C:/Users/Zack/Documents/PhoneSimulator - Copy/VR/PhoneSimulator/build/phonesimulator/CMakeFiles/phonesimulator_autogen.dir" Debug
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen C:/Users/Zack/Documents/PhoneSimulator/VR/PhoneSimulator/build/phonesimulator/CMakeFiles/phonesimulator_autogen.dir Debug
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -126,13 +126,13 @@ exit /b %1
 if %errorlevel% neq 0 goto :VCEnd</Command>
     </PreBuildEvent>
     <Link>
-      <AdditionalDependencies>E:\Qt\Qt5.6.3\5.6.3\msvc2013_64\lib\Qt5Widgetsd.lib;C:\Users\Zack\Documents\PhoneSimulator - Copy\VR\lib\win64\openvr_api.lib;E:\Qt\Qt5.6.3\5.6.3\msvc2013_64\lib\Qt5Guid.lib;E:\Qt\Qt5.6.3\5.6.3\msvc2013_64\lib\Qt5Cored.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>E:\Qt\Qt5.6.3\5.6.3\msvc2013_64\lib\Qt5Widgetsd.lib;C:\Users\Zack\Documents\PhoneSimulator\VR\lib\win64\openvr_api.lib;E:\Qt\Qt5.6.3\5.6.3\msvc2013_64\lib\Qt5Guid.lib;E:\Qt\Qt5.6.3\5.6.3\msvc2013_64\lib\Qt5Cored.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/Users/Zack/Documents/PhoneSimulator - Copy/VR/PhoneSimulator/bin/win64/phonesimulator.lib</ImportLibrary>
-      <ProgramDataBaseFile>C:/Users/Zack/Documents/PhoneSimulator - Copy/VR/PhoneSimulator/bin/win64/phonesimulator.pdb</ProgramDataBaseFile>
+      <ImportLibrary>C:/Users/Zack/Documents/PhoneSimulator/VR/PhoneSimulator/bin/win64/phonesimulator.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Zack/Documents/PhoneSimulator/VR/PhoneSimulator/bin/win64/phonesimulator.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -141,7 +141,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>NCREMENTAL:NO;C:\Users\Zack\Documents\PhoneSimulator - Copy\VR\PhoneSimulator\build\phonesimulator;C:\Users\Zack\Documents\PhoneSimulator - Copy\VR\PhoneSimulator\phonesimulator;C:\Users\Zack\Documents\PhoneSimulator - Copy\VR\PhoneSimulator\build\phonesimulator\phonesimulator_autogen\include_Release;C:\Users\Zack\Documents\PhoneSimulator - Copy\VR\PhoneSimulator\.;C:\Users\Zack\Documents\PhoneSimulator - Copy\VR\PhoneSimulator\thirdparty\glew\glew-1.11.0\include;C:\Users\Zack\Documents\PhoneSimulator - Copy\VR\PhoneSimulator\thirdparty\sdl2-2.0.3\include;E:\Qt\Qt5.6.3\5.6.3\msvc2013_64\include;E:\Qt\Qt5.6.3\5.6.3\msvc2013_64\include\QtCore;E:\Qt\Qt5.6.3\5.6.3\msvc2013_64\.\mkspecs\win32-msvc2013;E:\Qt\Qt5.6.3\5.6.3\msvc2013_64\include\QtGui;E:\Qt\Qt5.6.3\5.6.3\msvc2013_64\include\QtWidgets;C:\Users\Zack\Documents\PhoneSimulator - Copy\VR\PhoneSimulator\..\headers;C:\Users\Zack\Documents\PhoneSimulator - Copy\VR\PhoneSimulator\thirdparty\vulkan-1.0.49.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>NCREMENTAL:NO;C:\Users\Zack\Documents\PhoneSimulator\VR\PhoneSimulator\build\phonesimulator;C:\Users\Zack\Documents\PhoneSimulator\VR\PhoneSimulator\phonesimulator;C:\Users\Zack\Documents\PhoneSimulator\VR\PhoneSimulator\build\phonesimulator\phonesimulator_autogen\include_Release;C:\Users\Zack\Documents\PhoneSimulator\VR\PhoneSimulator\.;C:\Users\Zack\Documents\PhoneSimulator\VR\PhoneSimulator\thirdparty\glew\glew-1.11.0\include;C:\Users\Zack\Documents\PhoneSimulator\VR\PhoneSimulator\thirdparty\sdl2-2.0.3\include;E:\Qt\Qt5.6.3\5.6.3\msvc2013_64\include;E:\Qt\Qt5.6.3\5.6.3\msvc2013_64\include\QtCore;E:\Qt\Qt5.6.3\5.6.3\msvc2013_64\.\mkspecs\win32-msvc2013;E:\Qt\Qt5.6.3\5.6.3\msvc2013_64\include\QtGui;E:\Qt\Qt5.6.3\5.6.3\msvc2013_64\include\QtWidgets;C:\Users\Zack\Documents\PhoneSimulator\VR\PhoneSimulator\..\headers;C:\Users\Zack\Documents\PhoneSimulator\VR\PhoneSimulator\thirdparty\vulkan-1.0.49.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>Release/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <ExceptionHandling>Sync</ExceptionHandling>
@@ -158,10 +158,10 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_WIN32;QT_CORE_LIB;QT_GUI_LIB;QT_WIDGETS_LIB;QT_NO_DEBUG;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\Zack\Documents\PhoneSimulator - Copy\VR\PhoneSimulator\build\phonesimulator;C:\Users\Zack\Documents\PhoneSimulator - Copy\VR\PhoneSimulator\phonesimulator;C:\Users\Zack\Documents\PhoneSimulator - Copy\VR\PhoneSimulator\build\phonesimulator\phonesimulator_autogen\include_Release;C:\Users\Zack\Documents\PhoneSimulator - Copy\VR\PhoneSimulator\.;C:\Users\Zack\Documents\PhoneSimulator - Copy\VR\PhoneSimulator\thirdparty\glew\glew-1.11.0\include;C:\Users\Zack\Documents\PhoneSimulator - Copy\VR\PhoneSimulator\thirdparty\sdl2-2.0.3\include;E:\Qt\Qt5.6.3\5.6.3\msvc2013_64\include;E:\Qt\Qt5.6.3\5.6.3\msvc2013_64\include\QtCore;E:\Qt\Qt5.6.3\5.6.3\msvc2013_64\.\mkspecs\win32-msvc2013;E:\Qt\Qt5.6.3\5.6.3\msvc2013_64\include\QtGui;E:\Qt\Qt5.6.3\5.6.3\msvc2013_64\include\QtWidgets;C:\Users\Zack\Documents\PhoneSimulator - Copy\VR\PhoneSimulator\..\headers;C:\Users\Zack\Documents\PhoneSimulator - Copy\VR\PhoneSimulator\thirdparty\vulkan-1.0.49.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Zack\Documents\PhoneSimulator\VR\PhoneSimulator\build\phonesimulator;C:\Users\Zack\Documents\PhoneSimulator\VR\PhoneSimulator\phonesimulator;C:\Users\Zack\Documents\PhoneSimulator\VR\PhoneSimulator\build\phonesimulator\phonesimulator_autogen\include_Release;C:\Users\Zack\Documents\PhoneSimulator\VR\PhoneSimulator\.;C:\Users\Zack\Documents\PhoneSimulator\VR\PhoneSimulator\thirdparty\glew\glew-1.11.0\include;C:\Users\Zack\Documents\PhoneSimulator\VR\PhoneSimulator\thirdparty\sdl2-2.0.3\include;E:\Qt\Qt5.6.3\5.6.3\msvc2013_64\include;E:\Qt\Qt5.6.3\5.6.3\msvc2013_64\include\QtCore;E:\Qt\Qt5.6.3\5.6.3\msvc2013_64\.\mkspecs\win32-msvc2013;E:\Qt\Qt5.6.3\5.6.3\msvc2013_64\include\QtGui;E:\Qt\Qt5.6.3\5.6.3\msvc2013_64\include\QtWidgets;C:\Users\Zack\Documents\PhoneSimulator\VR\PhoneSimulator\..\headers;C:\Users\Zack\Documents\PhoneSimulator\VR\PhoneSimulator\thirdparty\vulkan-1.0.49.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\Zack\Documents\PhoneSimulator - Copy\VR\PhoneSimulator\build\phonesimulator;C:\Users\Zack\Documents\PhoneSimulator - Copy\VR\PhoneSimulator\phonesimulator;C:\Users\Zack\Documents\PhoneSimulator - Copy\VR\PhoneSimulator\build\phonesimulator\phonesimulator_autogen\include_Release;C:\Users\Zack\Documents\PhoneSimulator - Copy\VR\PhoneSimulator\.;C:\Users\Zack\Documents\PhoneSimulator - Copy\VR\PhoneSimulator\thirdparty\glew\glew-1.11.0\include;C:\Users\Zack\Documents\PhoneSimulator - Copy\VR\PhoneSimulator\thirdparty\sdl2-2.0.3\include;E:\Qt\Qt5.6.3\5.6.3\msvc2013_64\include;E:\Qt\Qt5.6.3\5.6.3\msvc2013_64\include\QtCore;E:\Qt\Qt5.6.3\5.6.3\msvc2013_64\.\mkspecs\win32-msvc2013;E:\Qt\Qt5.6.3\5.6.3\msvc2013_64\include\QtGui;E:\Qt\Qt5.6.3\5.6.3\msvc2013_64\include\QtWidgets;C:\Users\Zack\Documents\PhoneSimulator - Copy\VR\PhoneSimulator\..\headers;C:\Users\Zack\Documents\PhoneSimulator - Copy\VR\PhoneSimulator\thirdparty\vulkan-1.0.49.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Zack\Documents\PhoneSimulator\VR\PhoneSimulator\build\phonesimulator;C:\Users\Zack\Documents\PhoneSimulator\VR\PhoneSimulator\phonesimulator;C:\Users\Zack\Documents\PhoneSimulator\VR\PhoneSimulator\build\phonesimulator\phonesimulator_autogen\include_Release;C:\Users\Zack\Documents\PhoneSimulator\VR\PhoneSimulator\.;C:\Users\Zack\Documents\PhoneSimulator\VR\PhoneSimulator\thirdparty\glew\glew-1.11.0\include;C:\Users\Zack\Documents\PhoneSimulator\VR\PhoneSimulator\thirdparty\sdl2-2.0.3\include;E:\Qt\Qt5.6.3\5.6.3\msvc2013_64\include;E:\Qt\Qt5.6.3\5.6.3\msvc2013_64\include\QtCore;E:\Qt\Qt5.6.3\5.6.3\msvc2013_64\.\mkspecs\win32-msvc2013;E:\Qt\Qt5.6.3\5.6.3\msvc2013_64\include\QtGui;E:\Qt\Qt5.6.3\5.6.3\msvc2013_64\include\QtWidgets;C:\Users\Zack\Documents\PhoneSimulator\VR\PhoneSimulator\..\headers;C:\Users\Zack\Documents\PhoneSimulator\VR\PhoneSimulator\thirdparty\vulkan-1.0.49.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -171,11 +171,11 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <PreBuildEvent>
       <Message>Automatic MOC and UIC for target phonesimulator</Message>
       <Command>setlocal
-cd "C:\Users\Zack\Documents\PhoneSimulator - Copy\VR\PhoneSimulator\build\phonesimulator"
+cd C:\Users\Zack\Documents\PhoneSimulator\VR\PhoneSimulator\build\phonesimulator
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen "C:/Users/Zack/Documents/PhoneSimulator - Copy/VR/PhoneSimulator/build/phonesimulator/CMakeFiles/phonesimulator_autogen.dir" Release
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen C:/Users/Zack/Documents/PhoneSimulator/VR/PhoneSimulator/build/phonesimulator/CMakeFiles/phonesimulator_autogen.dir Release
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -185,13 +185,13 @@ exit /b %1
 if %errorlevel% neq 0 goto :VCEnd</Command>
     </PreBuildEvent>
     <Link>
-      <AdditionalDependencies>E:\Qt\Qt5.6.3\5.6.3\msvc2013_64\lib\Qt5Widgets.lib;C:\Users\Zack\Documents\PhoneSimulator - Copy\VR\lib\win64\openvr_api.lib;E:\Qt\Qt5.6.3\5.6.3\msvc2013_64\lib\Qt5Gui.lib;E:\Qt\Qt5.6.3\5.6.3\msvc2013_64\lib\Qt5Core.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>E:\Qt\Qt5.6.3\5.6.3\msvc2013_64\lib\Qt5Widgets.lib;C:\Users\Zack\Documents\PhoneSimulator\VR\lib\win64\openvr_api.lib;E:\Qt\Qt5.6.3\5.6.3\msvc2013_64\lib\Qt5Gui.lib;E:\Qt\Qt5.6.3\5.6.3\msvc2013_64\lib\Qt5Core.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/Users/Zack/Documents/PhoneSimulator - Copy/VR/PhoneSimulator/bin/win64/phonesimulator.lib</ImportLibrary>
-      <ProgramDataBaseFile>C:/Users/Zack/Documents/PhoneSimulator - Copy/VR/PhoneSimulator/bin/win64/phonesimulator.pdb</ProgramDataBaseFile>
+      <ImportLibrary>C:/Users/Zack/Documents/PhoneSimulator/VR/PhoneSimulator/bin/win64/phonesimulator.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Zack/Documents/PhoneSimulator/VR/PhoneSimulator/bin/win64/phonesimulator.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -200,7 +200,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\Zack\Documents\PhoneSimulator - Copy\VR\PhoneSimulator\build\phonesimulator;C:\Users\Zack\Documents\PhoneSimulator - Copy\VR\PhoneSimulator\phonesimulator;C:\Users\Zack\Documents\PhoneSimulator - Copy\VR\PhoneSimulator\build\phonesimulator\phonesimulator_autogen\include_MinSizeRel;C:\Users\Zack\Documents\PhoneSimulator - Copy\VR\PhoneSimulator\.;C:\Users\Zack\Documents\PhoneSimulator - Copy\VR\PhoneSimulator\thirdparty\glew\glew-1.11.0\include;C:\Users\Zack\Documents\PhoneSimulator - Copy\VR\PhoneSimulator\thirdparty\sdl2-2.0.3\include;E:\Qt\Qt5.6.3\5.6.3\msvc2013_64\include;E:\Qt\Qt5.6.3\5.6.3\msvc2013_64\include\QtCore;E:\Qt\Qt5.6.3\5.6.3\msvc2013_64\.\mkspecs\win32-msvc2013;E:\Qt\Qt5.6.3\5.6.3\msvc2013_64\include\QtGui;E:\Qt\Qt5.6.3\5.6.3\msvc2013_64\include\QtWidgets;C:\Users\Zack\Documents\PhoneSimulator - Copy\VR\PhoneSimulator\..\headers;C:\Users\Zack\Documents\PhoneSimulator - Copy\VR\PhoneSimulator\thirdparty\vulkan-1.0.49.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Zack\Documents\PhoneSimulator\VR\PhoneSimulator\build\phonesimulator;C:\Users\Zack\Documents\PhoneSimulator\VR\PhoneSimulator\phonesimulator;C:\Users\Zack\Documents\PhoneSimulator\VR\PhoneSimulator\build\phonesimulator\phonesimulator_autogen\include_MinSizeRel;C:\Users\Zack\Documents\PhoneSimulator\VR\PhoneSimulator\.;C:\Users\Zack\Documents\PhoneSimulator\VR\PhoneSimulator\thirdparty\glew\glew-1.11.0\include;C:\Users\Zack\Documents\PhoneSimulator\VR\PhoneSimulator\thirdparty\sdl2-2.0.3\include;E:\Qt\Qt5.6.3\5.6.3\msvc2013_64\include;E:\Qt\Qt5.6.3\5.6.3\msvc2013_64\include\QtCore;E:\Qt\Qt5.6.3\5.6.3\msvc2013_64\.\mkspecs\win32-msvc2013;E:\Qt\Qt5.6.3\5.6.3\msvc2013_64\include\QtGui;E:\Qt\Qt5.6.3\5.6.3\msvc2013_64\include\QtWidgets;C:\Users\Zack\Documents\PhoneSimulator\VR\PhoneSimulator\..\headers;C:\Users\Zack\Documents\PhoneSimulator\VR\PhoneSimulator\thirdparty\vulkan-1.0.49.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <ExceptionHandling>Sync</ExceptionHandling>
@@ -216,10 +216,10 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_WIN32;QT_CORE_LIB;QT_GUI_LIB;QT_WIDGETS_LIB;QT_NO_DEBUG;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\Zack\Documents\PhoneSimulator - Copy\VR\PhoneSimulator\build\phonesimulator;C:\Users\Zack\Documents\PhoneSimulator - Copy\VR\PhoneSimulator\phonesimulator;C:\Users\Zack\Documents\PhoneSimulator - Copy\VR\PhoneSimulator\build\phonesimulator\phonesimulator_autogen\include_MinSizeRel;C:\Users\Zack\Documents\PhoneSimulator - Copy\VR\PhoneSimulator\.;C:\Users\Zack\Documents\PhoneSimulator - Copy\VR\PhoneSimulator\thirdparty\glew\glew-1.11.0\include;C:\Users\Zack\Documents\PhoneSimulator - Copy\VR\PhoneSimulator\thirdparty\sdl2-2.0.3\include;E:\Qt\Qt5.6.3\5.6.3\msvc2013_64\include;E:\Qt\Qt5.6.3\5.6.3\msvc2013_64\include\QtCore;E:\Qt\Qt5.6.3\5.6.3\msvc2013_64\.\mkspecs\win32-msvc2013;E:\Qt\Qt5.6.3\5.6.3\msvc2013_64\include\QtGui;E:\Qt\Qt5.6.3\5.6.3\msvc2013_64\include\QtWidgets;C:\Users\Zack\Documents\PhoneSimulator - Copy\VR\PhoneSimulator\..\headers;C:\Users\Zack\Documents\PhoneSimulator - Copy\VR\PhoneSimulator\thirdparty\vulkan-1.0.49.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Zack\Documents\PhoneSimulator\VR\PhoneSimulator\build\phonesimulator;C:\Users\Zack\Documents\PhoneSimulator\VR\PhoneSimulator\phonesimulator;C:\Users\Zack\Documents\PhoneSimulator\VR\PhoneSimulator\build\phonesimulator\phonesimulator_autogen\include_MinSizeRel;C:\Users\Zack\Documents\PhoneSimulator\VR\PhoneSimulator\.;C:\Users\Zack\Documents\PhoneSimulator\VR\PhoneSimulator\thirdparty\glew\glew-1.11.0\include;C:\Users\Zack\Documents\PhoneSimulator\VR\PhoneSimulator\thirdparty\sdl2-2.0.3\include;E:\Qt\Qt5.6.3\5.6.3\msvc2013_64\include;E:\Qt\Qt5.6.3\5.6.3\msvc2013_64\include\QtCore;E:\Qt\Qt5.6.3\5.6.3\msvc2013_64\.\mkspecs\win32-msvc2013;E:\Qt\Qt5.6.3\5.6.3\msvc2013_64\include\QtGui;E:\Qt\Qt5.6.3\5.6.3\msvc2013_64\include\QtWidgets;C:\Users\Zack\Documents\PhoneSimulator\VR\PhoneSimulator\..\headers;C:\Users\Zack\Documents\PhoneSimulator\VR\PhoneSimulator\thirdparty\vulkan-1.0.49.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\Zack\Documents\PhoneSimulator - Copy\VR\PhoneSimulator\build\phonesimulator;C:\Users\Zack\Documents\PhoneSimulator - Copy\VR\PhoneSimulator\phonesimulator;C:\Users\Zack\Documents\PhoneSimulator - Copy\VR\PhoneSimulator\build\phonesimulator\phonesimulator_autogen\include_MinSizeRel;C:\Users\Zack\Documents\PhoneSimulator - Copy\VR\PhoneSimulator\.;C:\Users\Zack\Documents\PhoneSimulator - Copy\VR\PhoneSimulator\thirdparty\glew\glew-1.11.0\include;C:\Users\Zack\Documents\PhoneSimulator - Copy\VR\PhoneSimulator\thirdparty\sdl2-2.0.3\include;E:\Qt\Qt5.6.3\5.6.3\msvc2013_64\include;E:\Qt\Qt5.6.3\5.6.3\msvc2013_64\include\QtCore;E:\Qt\Qt5.6.3\5.6.3\msvc2013_64\.\mkspecs\win32-msvc2013;E:\Qt\Qt5.6.3\5.6.3\msvc2013_64\include\QtGui;E:\Qt\Qt5.6.3\5.6.3\msvc2013_64\include\QtWidgets;C:\Users\Zack\Documents\PhoneSimulator - Copy\VR\PhoneSimulator\..\headers;C:\Users\Zack\Documents\PhoneSimulator - Copy\VR\PhoneSimulator\thirdparty\vulkan-1.0.49.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Zack\Documents\PhoneSimulator\VR\PhoneSimulator\build\phonesimulator;C:\Users\Zack\Documents\PhoneSimulator\VR\PhoneSimulator\phonesimulator;C:\Users\Zack\Documents\PhoneSimulator\VR\PhoneSimulator\build\phonesimulator\phonesimulator_autogen\include_MinSizeRel;C:\Users\Zack\Documents\PhoneSimulator\VR\PhoneSimulator\.;C:\Users\Zack\Documents\PhoneSimulator\VR\PhoneSimulator\thirdparty\glew\glew-1.11.0\include;C:\Users\Zack\Documents\PhoneSimulator\VR\PhoneSimulator\thirdparty\sdl2-2.0.3\include;E:\Qt\Qt5.6.3\5.6.3\msvc2013_64\include;E:\Qt\Qt5.6.3\5.6.3\msvc2013_64\include\QtCore;E:\Qt\Qt5.6.3\5.6.3\msvc2013_64\.\mkspecs\win32-msvc2013;E:\Qt\Qt5.6.3\5.6.3\msvc2013_64\include\QtGui;E:\Qt\Qt5.6.3\5.6.3\msvc2013_64\include\QtWidgets;C:\Users\Zack\Documents\PhoneSimulator\VR\PhoneSimulator\..\headers;C:\Users\Zack\Documents\PhoneSimulator\VR\PhoneSimulator\thirdparty\vulkan-1.0.49.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -229,11 +229,11 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <PreBuildEvent>
       <Message>Automatic MOC and UIC for target phonesimulator</Message>
       <Command>setlocal
-cd "C:\Users\Zack\Documents\PhoneSimulator - Copy\VR\PhoneSimulator\build\phonesimulator"
+cd C:\Users\Zack\Documents\PhoneSimulator\VR\PhoneSimulator\build\phonesimulator
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen "C:/Users/Zack/Documents/PhoneSimulator - Copy/VR/PhoneSimulator/build/phonesimulator/CMakeFiles/phonesimulator_autogen.dir" MinSizeRel
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen C:/Users/Zack/Documents/PhoneSimulator/VR/PhoneSimulator/build/phonesimulator/CMakeFiles/phonesimulator_autogen.dir MinSizeRel
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -243,13 +243,13 @@ exit /b %1
 if %errorlevel% neq 0 goto :VCEnd</Command>
     </PreBuildEvent>
     <Link>
-      <AdditionalDependencies>E:\Qt\Qt5.6.3\5.6.3\msvc2013_64\lib\Qt5Widgets.lib;C:\Users\Zack\Documents\PhoneSimulator - Copy\VR\lib\win64\openvr_api.lib;E:\Qt\Qt5.6.3\5.6.3\msvc2013_64\lib\Qt5Gui.lib;E:\Qt\Qt5.6.3\5.6.3\msvc2013_64\lib\Qt5Core.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>E:\Qt\Qt5.6.3\5.6.3\msvc2013_64\lib\Qt5Widgets.lib;C:\Users\Zack\Documents\PhoneSimulator\VR\lib\win64\openvr_api.lib;E:\Qt\Qt5.6.3\5.6.3\msvc2013_64\lib\Qt5Gui.lib;E:\Qt\Qt5.6.3\5.6.3\msvc2013_64\lib\Qt5Core.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/Users/Zack/Documents/PhoneSimulator - Copy/VR/PhoneSimulator/bin/win64/MinSizeRel/phonesimulator.lib</ImportLibrary>
-      <ProgramDataBaseFile>C:/Users/Zack/Documents/PhoneSimulator - Copy/VR/PhoneSimulator/bin/win64/MinSizeRel/phonesimulator.pdb</ProgramDataBaseFile>
+      <ImportLibrary>C:/Users/Zack/Documents/PhoneSimulator/VR/PhoneSimulator/bin/win64/MinSizeRel/phonesimulator.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Zack/Documents/PhoneSimulator/VR/PhoneSimulator/bin/win64/MinSizeRel/phonesimulator.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -258,7 +258,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\Zack\Documents\PhoneSimulator - Copy\VR\PhoneSimulator\build\phonesimulator;C:\Users\Zack\Documents\PhoneSimulator - Copy\VR\PhoneSimulator\phonesimulator;C:\Users\Zack\Documents\PhoneSimulator - Copy\VR\PhoneSimulator\build\phonesimulator\phonesimulator_autogen\include_RelWithDebInfo;C:\Users\Zack\Documents\PhoneSimulator - Copy\VR\PhoneSimulator\.;C:\Users\Zack\Documents\PhoneSimulator - Copy\VR\PhoneSimulator\thirdparty\glew\glew-1.11.0\include;C:\Users\Zack\Documents\PhoneSimulator - Copy\VR\PhoneSimulator\thirdparty\sdl2-2.0.3\include;E:\Qt\Qt5.6.3\5.6.3\msvc2013_64\include;E:\Qt\Qt5.6.3\5.6.3\msvc2013_64\include\QtCore;E:\Qt\Qt5.6.3\5.6.3\msvc2013_64\.\mkspecs\win32-msvc2013;E:\Qt\Qt5.6.3\5.6.3\msvc2013_64\include\QtGui;E:\Qt\Qt5.6.3\5.6.3\msvc2013_64\include\QtWidgets;C:\Users\Zack\Documents\PhoneSimulator - Copy\VR\PhoneSimulator\..\headers;C:\Users\Zack\Documents\PhoneSimulator - Copy\VR\PhoneSimulator\thirdparty\vulkan-1.0.49.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Zack\Documents\PhoneSimulator\VR\PhoneSimulator\build\phonesimulator;C:\Users\Zack\Documents\PhoneSimulator\VR\PhoneSimulator\phonesimulator;C:\Users\Zack\Documents\PhoneSimulator\VR\PhoneSimulator\build\phonesimulator\phonesimulator_autogen\include_RelWithDebInfo;C:\Users\Zack\Documents\PhoneSimulator\VR\PhoneSimulator\.;C:\Users\Zack\Documents\PhoneSimulator\VR\PhoneSimulator\thirdparty\glew\glew-1.11.0\include;C:\Users\Zack\Documents\PhoneSimulator\VR\PhoneSimulator\thirdparty\sdl2-2.0.3\include;E:\Qt\Qt5.6.3\5.6.3\msvc2013_64\include;E:\Qt\Qt5.6.3\5.6.3\msvc2013_64\include\QtCore;E:\Qt\Qt5.6.3\5.6.3\msvc2013_64\.\mkspecs\win32-msvc2013;E:\Qt\Qt5.6.3\5.6.3\msvc2013_64\include\QtGui;E:\Qt\Qt5.6.3\5.6.3\msvc2013_64\include\QtWidgets;C:\Users\Zack\Documents\PhoneSimulator\VR\PhoneSimulator\..\headers;C:\Users\Zack\Documents\PhoneSimulator\VR\PhoneSimulator\thirdparty\vulkan-1.0.49.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -274,10 +274,10 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_WIN32;QT_CORE_LIB;QT_GUI_LIB;QT_WIDGETS_LIB;QT_NO_DEBUG;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\Zack\Documents\PhoneSimulator - Copy\VR\PhoneSimulator\build\phonesimulator;C:\Users\Zack\Documents\PhoneSimulator - Copy\VR\PhoneSimulator\phonesimulator;C:\Users\Zack\Documents\PhoneSimulator - Copy\VR\PhoneSimulator\build\phonesimulator\phonesimulator_autogen\include_RelWithDebInfo;C:\Users\Zack\Documents\PhoneSimulator - Copy\VR\PhoneSimulator\.;C:\Users\Zack\Documents\PhoneSimulator - Copy\VR\PhoneSimulator\thirdparty\glew\glew-1.11.0\include;C:\Users\Zack\Documents\PhoneSimulator - Copy\VR\PhoneSimulator\thirdparty\sdl2-2.0.3\include;E:\Qt\Qt5.6.3\5.6.3\msvc2013_64\include;E:\Qt\Qt5.6.3\5.6.3\msvc2013_64\include\QtCore;E:\Qt\Qt5.6.3\5.6.3\msvc2013_64\.\mkspecs\win32-msvc2013;E:\Qt\Qt5.6.3\5.6.3\msvc2013_64\include\QtGui;E:\Qt\Qt5.6.3\5.6.3\msvc2013_64\include\QtWidgets;C:\Users\Zack\Documents\PhoneSimulator - Copy\VR\PhoneSimulator\..\headers;C:\Users\Zack\Documents\PhoneSimulator - Copy\VR\PhoneSimulator\thirdparty\vulkan-1.0.49.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Zack\Documents\PhoneSimulator\VR\PhoneSimulator\build\phonesimulator;C:\Users\Zack\Documents\PhoneSimulator\VR\PhoneSimulator\phonesimulator;C:\Users\Zack\Documents\PhoneSimulator\VR\PhoneSimulator\build\phonesimulator\phonesimulator_autogen\include_RelWithDebInfo;C:\Users\Zack\Documents\PhoneSimulator\VR\PhoneSimulator\.;C:\Users\Zack\Documents\PhoneSimulator\VR\PhoneSimulator\thirdparty\glew\glew-1.11.0\include;C:\Users\Zack\Documents\PhoneSimulator\VR\PhoneSimulator\thirdparty\sdl2-2.0.3\include;E:\Qt\Qt5.6.3\5.6.3\msvc2013_64\include;E:\Qt\Qt5.6.3\5.6.3\msvc2013_64\include\QtCore;E:\Qt\Qt5.6.3\5.6.3\msvc2013_64\.\mkspecs\win32-msvc2013;E:\Qt\Qt5.6.3\5.6.3\msvc2013_64\include\QtGui;E:\Qt\Qt5.6.3\5.6.3\msvc2013_64\include\QtWidgets;C:\Users\Zack\Documents\PhoneSimulator\VR\PhoneSimulator\..\headers;C:\Users\Zack\Documents\PhoneSimulator\VR\PhoneSimulator\thirdparty\vulkan-1.0.49.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\Zack\Documents\PhoneSimulator - Copy\VR\PhoneSimulator\build\phonesimulator;C:\Users\Zack\Documents\PhoneSimulator - Copy\VR\PhoneSimulator\phonesimulator;C:\Users\Zack\Documents\PhoneSimulator - Copy\VR\PhoneSimulator\build\phonesimulator\phonesimulator_autogen\include_RelWithDebInfo;C:\Users\Zack\Documents\PhoneSimulator - Copy\VR\PhoneSimulator\.;C:\Users\Zack\Documents\PhoneSimulator - Copy\VR\PhoneSimulator\thirdparty\glew\glew-1.11.0\include;C:\Users\Zack\Documents\PhoneSimulator - Copy\VR\PhoneSimulator\thirdparty\sdl2-2.0.3\include;E:\Qt\Qt5.6.3\5.6.3\msvc2013_64\include;E:\Qt\Qt5.6.3\5.6.3\msvc2013_64\include\QtCore;E:\Qt\Qt5.6.3\5.6.3\msvc2013_64\.\mkspecs\win32-msvc2013;E:\Qt\Qt5.6.3\5.6.3\msvc2013_64\include\QtGui;E:\Qt\Qt5.6.3\5.6.3\msvc2013_64\include\QtWidgets;C:\Users\Zack\Documents\PhoneSimulator - Copy\VR\PhoneSimulator\..\headers;C:\Users\Zack\Documents\PhoneSimulator - Copy\VR\PhoneSimulator\thirdparty\vulkan-1.0.49.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Zack\Documents\PhoneSimulator\VR\PhoneSimulator\build\phonesimulator;C:\Users\Zack\Documents\PhoneSimulator\VR\PhoneSimulator\phonesimulator;C:\Users\Zack\Documents\PhoneSimulator\VR\PhoneSimulator\build\phonesimulator\phonesimulator_autogen\include_RelWithDebInfo;C:\Users\Zack\Documents\PhoneSimulator\VR\PhoneSimulator\.;C:\Users\Zack\Documents\PhoneSimulator\VR\PhoneSimulator\thirdparty\glew\glew-1.11.0\include;C:\Users\Zack\Documents\PhoneSimulator\VR\PhoneSimulator\thirdparty\sdl2-2.0.3\include;E:\Qt\Qt5.6.3\5.6.3\msvc2013_64\include;E:\Qt\Qt5.6.3\5.6.3\msvc2013_64\include\QtCore;E:\Qt\Qt5.6.3\5.6.3\msvc2013_64\.\mkspecs\win32-msvc2013;E:\Qt\Qt5.6.3\5.6.3\msvc2013_64\include\QtGui;E:\Qt\Qt5.6.3\5.6.3\msvc2013_64\include\QtWidgets;C:\Users\Zack\Documents\PhoneSimulator\VR\PhoneSimulator\..\headers;C:\Users\Zack\Documents\PhoneSimulator\VR\PhoneSimulator\thirdparty\vulkan-1.0.49.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -287,11 +287,11 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <PreBuildEvent>
       <Message>Automatic MOC and UIC for target phonesimulator</Message>
       <Command>setlocal
-cd "C:\Users\Zack\Documents\PhoneSimulator - Copy\VR\PhoneSimulator\build\phonesimulator"
+cd C:\Users\Zack\Documents\PhoneSimulator\VR\PhoneSimulator\build\phonesimulator
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen "C:/Users/Zack/Documents/PhoneSimulator - Copy/VR/PhoneSimulator/build/phonesimulator/CMakeFiles/phonesimulator_autogen.dir" RelWithDebInfo
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen C:/Users/Zack/Documents/PhoneSimulator/VR/PhoneSimulator/build/phonesimulator/CMakeFiles/phonesimulator_autogen.dir RelWithDebInfo
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -301,13 +301,13 @@ exit /b %1
 if %errorlevel% neq 0 goto :VCEnd</Command>
     </PreBuildEvent>
     <Link>
-      <AdditionalDependencies>E:\Qt\Qt5.6.3\5.6.3\msvc2013_64\lib\Qt5Widgets.lib;C:\Users\Zack\Documents\PhoneSimulator - Copy\VR\lib\win64\openvr_api.lib;E:\Qt\Qt5.6.3\5.6.3\msvc2013_64\lib\Qt5Gui.lib;E:\Qt\Qt5.6.3\5.6.3\msvc2013_64\lib\Qt5Core.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>E:\Qt\Qt5.6.3\5.6.3\msvc2013_64\lib\Qt5Widgets.lib;C:\Users\Zack\Documents\PhoneSimulator\VR\lib\win64\openvr_api.lib;E:\Qt\Qt5.6.3\5.6.3\msvc2013_64\lib\Qt5Gui.lib;E:\Qt\Qt5.6.3\5.6.3\msvc2013_64\lib\Qt5Core.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/Users/Zack/Documents/PhoneSimulator - Copy/VR/PhoneSimulator/bin/win64/RelWithDebInfo/phonesimulator.lib</ImportLibrary>
-      <ProgramDataBaseFile>C:/Users/Zack/Documents/PhoneSimulator - Copy/VR/PhoneSimulator/bin/win64/RelWithDebInfo/phonesimulator.pdb</ProgramDataBaseFile>
+      <ImportLibrary>C:/Users/Zack/Documents/PhoneSimulator/VR/PhoneSimulator/bin/win64/RelWithDebInfo/phonesimulator.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Zack/Documents/PhoneSimulator/VR/PhoneSimulator/bin/win64/RelWithDebInfo/phonesimulator.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -315,10 +315,10 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </ProjectReference>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Zack\Documents\PhoneSimulator - Copy\VR\PhoneSimulator\phonesimulator\CMakeLists.txt">
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/Zack/Documents/PhoneSimulator - Copy/VR/PhoneSimulator/phonesimulator/CMakeLists.txt</Message>
+    <CustomBuild Include="C:\Users\Zack\Documents\PhoneSimulator\VR\PhoneSimulator\phonesimulator\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/Zack/Documents/PhoneSimulator/VR/PhoneSimulator/phonesimulator/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" "-HC:/Users/Zack/Documents/PhoneSimulator - Copy/VR/PhoneSimulator" "-BC:/Users/Zack/Documents/PhoneSimulator - Copy/VR/PhoneSimulator/build" --check-stamp-file "C:/Users/Zack/Documents/PhoneSimulator - Copy/VR/PhoneSimulator/build/phonesimulator/CMakeFiles/generate.stamp"
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/Zack/Documents/PhoneSimulator/VR/PhoneSimulator -BC:/Users/Zack/Documents/PhoneSimulator/VR/PhoneSimulator/build --check-stamp-file C:/Users/Zack/Documents/PhoneSimulator/VR/PhoneSimulator/build/phonesimulator/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -326,12 +326,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/Zack/Documents/PhoneSimulator - Copy/VR/PhoneSimulator/phonesimulator/CMakeLists.txt;C:\Users\Zack\Documents\PhoneSimulator - Copy\VR\PhoneSimulator\phonesimulator\CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.10\Modules\AutogenInfo.cmake.in;C:\Users\Zack\Documents\PhoneSimulator - Copy\VR\PhoneSimulator\phonesimulator\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Zack\Documents\PhoneSimulator - Copy\VR\PhoneSimulator\build\phonesimulator\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/Zack/Documents/PhoneSimulator/VR/PhoneSimulator/phonesimulator/CMakeLists.txt;C:\Users\Zack\Documents\PhoneSimulator\VR\PhoneSimulator\phonesimulator\CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.10\Modules\AutogenInfo.cmake.in;C:\Users\Zack\Documents\PhoneSimulator\VR\PhoneSimulator\phonesimulator\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Zack\Documents\PhoneSimulator\VR\PhoneSimulator\build\phonesimulator\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/Zack/Documents/PhoneSimulator - Copy/VR/PhoneSimulator/phonesimulator/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/Zack/Documents/PhoneSimulator/VR/PhoneSimulator/phonesimulator/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" "-HC:/Users/Zack/Documents/PhoneSimulator - Copy/VR/PhoneSimulator" "-BC:/Users/Zack/Documents/PhoneSimulator - Copy/VR/PhoneSimulator/build" --check-stamp-file "C:/Users/Zack/Documents/PhoneSimulator - Copy/VR/PhoneSimulator/build/phonesimulator/CMakeFiles/generate.stamp"
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/Zack/Documents/PhoneSimulator/VR/PhoneSimulator -BC:/Users/Zack/Documents/PhoneSimulator/VR/PhoneSimulator/build --check-stamp-file C:/Users/Zack/Documents/PhoneSimulator/VR/PhoneSimulator/build/phonesimulator/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -339,12 +339,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/Zack/Documents/PhoneSimulator - Copy/VR/PhoneSimulator/phonesimulator/CMakeLists.txt;C:\Users\Zack\Documents\PhoneSimulator - Copy\VR\PhoneSimulator\phonesimulator\CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.10\Modules\AutogenInfo.cmake.in;C:\Users\Zack\Documents\PhoneSimulator - Copy\VR\PhoneSimulator\phonesimulator\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Zack\Documents\PhoneSimulator - Copy\VR\PhoneSimulator\build\phonesimulator\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/Zack/Documents/PhoneSimulator/VR/PhoneSimulator/phonesimulator/CMakeLists.txt;C:\Users\Zack\Documents\PhoneSimulator\VR\PhoneSimulator\phonesimulator\CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.10\Modules\AutogenInfo.cmake.in;C:\Users\Zack\Documents\PhoneSimulator\VR\PhoneSimulator\phonesimulator\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Zack\Documents\PhoneSimulator\VR\PhoneSimulator\build\phonesimulator\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/Zack/Documents/PhoneSimulator - Copy/VR/PhoneSimulator/phonesimulator/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/Zack/Documents/PhoneSimulator/VR/PhoneSimulator/phonesimulator/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" "-HC:/Users/Zack/Documents/PhoneSimulator - Copy/VR/PhoneSimulator" "-BC:/Users/Zack/Documents/PhoneSimulator - Copy/VR/PhoneSimulator/build" --check-stamp-file "C:/Users/Zack/Documents/PhoneSimulator - Copy/VR/PhoneSimulator/build/phonesimulator/CMakeFiles/generate.stamp"
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/Zack/Documents/PhoneSimulator/VR/PhoneSimulator -BC:/Users/Zack/Documents/PhoneSimulator/VR/PhoneSimulator/build --check-stamp-file C:/Users/Zack/Documents/PhoneSimulator/VR/PhoneSimulator/build/phonesimulator/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -352,12 +352,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/Zack/Documents/PhoneSimulator - Copy/VR/PhoneSimulator/phonesimulator/CMakeLists.txt;C:\Users\Zack\Documents\PhoneSimulator - Copy\VR\PhoneSimulator\phonesimulator\CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.10\Modules\AutogenInfo.cmake.in;C:\Users\Zack\Documents\PhoneSimulator - Copy\VR\PhoneSimulator\phonesimulator\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Zack\Documents\PhoneSimulator - Copy\VR\PhoneSimulator\build\phonesimulator\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/Zack/Documents/PhoneSimulator/VR/PhoneSimulator/phonesimulator/CMakeLists.txt;C:\Users\Zack\Documents\PhoneSimulator\VR\PhoneSimulator\phonesimulator\CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.10\Modules\AutogenInfo.cmake.in;C:\Users\Zack\Documents\PhoneSimulator\VR\PhoneSimulator\phonesimulator\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Zack\Documents\PhoneSimulator\VR\PhoneSimulator\build\phonesimulator\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/Zack/Documents/PhoneSimulator - Copy/VR/PhoneSimulator/phonesimulator/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/Zack/Documents/PhoneSimulator/VR/PhoneSimulator/phonesimulator/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" "-HC:/Users/Zack/Documents/PhoneSimulator - Copy/VR/PhoneSimulator" "-BC:/Users/Zack/Documents/PhoneSimulator - Copy/VR/PhoneSimulator/build" --check-stamp-file "C:/Users/Zack/Documents/PhoneSimulator - Copy/VR/PhoneSimulator/build/phonesimulator/CMakeFiles/generate.stamp"
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/Zack/Documents/PhoneSimulator/VR/PhoneSimulator -BC:/Users/Zack/Documents/PhoneSimulator/VR/PhoneSimulator/build --check-stamp-file C:/Users/Zack/Documents/PhoneSimulator/VR/PhoneSimulator/build/phonesimulator/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -365,32 +365,34 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/Zack/Documents/PhoneSimulator - Copy/VR/PhoneSimulator/phonesimulator/CMakeLists.txt;C:\Users\Zack\Documents\PhoneSimulator - Copy\VR\PhoneSimulator\phonesimulator\CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.10\Modules\AutogenInfo.cmake.in;C:\Users\Zack\Documents\PhoneSimulator - Copy\VR\PhoneSimulator\phonesimulator\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Zack\Documents\PhoneSimulator - Copy\VR\PhoneSimulator\build\phonesimulator\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/Zack/Documents/PhoneSimulator/VR/PhoneSimulator/phonesimulator/CMakeLists.txt;C:\Users\Zack\Documents\PhoneSimulator\VR\PhoneSimulator\phonesimulator\CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.10\Modules\AutogenInfo.cmake.in;C:\Users\Zack\Documents\PhoneSimulator\VR\PhoneSimulator\phonesimulator\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Zack\Documents\PhoneSimulator\VR\PhoneSimulator\build\phonesimulator\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="C:\Users\Zack\Documents\PhoneSimulator - Copy\VR\PhoneSimulator\shared\Matrices.cpp"  />
-    <ClCompile Include="C:\Users\Zack\Documents\PhoneSimulator - Copy\VR\PhoneSimulator\shared\lodepng.cpp"  />
-    <ClCompile Include="C:\Users\Zack\Documents\PhoneSimulator - Copy\VR\PhoneSimulator\shared\pathtools.cpp"  />
-    <ClCompile Include="C:\Users\Zack\Documents\PhoneSimulator - Copy\VR\PhoneSimulator\shared\strtools.cpp"  />
-    <ClInclude Include="C:\Users\Zack\Documents\PhoneSimulator - Copy\VR\PhoneSimulator\shared\Matrices.h" />
-    <ClInclude Include="C:\Users\Zack\Documents\PhoneSimulator - Copy\VR\PhoneSimulator\shared\Vectors.h" />
-    <ClInclude Include="C:\Users\Zack\Documents\PhoneSimulator - Copy\VR\PhoneSimulator\shared\compat.h" />
-    <ClInclude Include="C:\Users\Zack\Documents\PhoneSimulator - Copy\VR\PhoneSimulator\shared\lodepng.h" />
-    <ClInclude Include="C:\Users\Zack\Documents\PhoneSimulator - Copy\VR\PhoneSimulator\shared\pathtools.h" />
-    <ClInclude Include="C:\Users\Zack\Documents\PhoneSimulator - Copy\VR\PhoneSimulator\shared\strtools.h" />
-    <ClCompile Include="C:\Users\Zack\Documents\PhoneSimulator - Copy\VR\PhoneSimulator\phonesimulator\main.cpp"  />
-    <ClCompile Include="C:\Users\Zack\Documents\PhoneSimulator - Copy\VR\PhoneSimulator\phonesimulator\vrcontroller.cpp"  />
-    <ClInclude Include="C:\Users\Zack\Documents\PhoneSimulator - Copy\VR\PhoneSimulator\phonesimulator\vrcontroller.h" />
-    <ClCompile Include="C:\Users\Zack\Documents\PhoneSimulator - Copy\VR\PhoneSimulator\phonesimulator\mainscreen.cpp"  />
-    <ClInclude Include="C:\Users\Zack\Documents\PhoneSimulator - Copy\VR\PhoneSimulator\phonesimulator\mainscreen.h" />
-    <ClCompile Include="C:\Users\Zack\Documents\PhoneSimulator - Copy\VR\PhoneSimulator\build\phonesimulator\phonesimulator_autogen\mocs_compilation.cpp"  />
+    <ClCompile Include="C:\Users\Zack\Documents\PhoneSimulator\VR\PhoneSimulator\shared\Matrices.cpp"  />
+    <ClCompile Include="C:\Users\Zack\Documents\PhoneSimulator\VR\PhoneSimulator\shared\lodepng.cpp"  />
+    <ClCompile Include="C:\Users\Zack\Documents\PhoneSimulator\VR\PhoneSimulator\shared\pathtools.cpp"  />
+    <ClCompile Include="C:\Users\Zack\Documents\PhoneSimulator\VR\PhoneSimulator\shared\strtools.cpp"  />
+    <ClInclude Include="C:\Users\Zack\Documents\PhoneSimulator\VR\PhoneSimulator\shared\Matrices.h" />
+    <ClInclude Include="C:\Users\Zack\Documents\PhoneSimulator\VR\PhoneSimulator\shared\Vectors.h" />
+    <ClInclude Include="C:\Users\Zack\Documents\PhoneSimulator\VR\PhoneSimulator\shared\compat.h" />
+    <ClInclude Include="C:\Users\Zack\Documents\PhoneSimulator\VR\PhoneSimulator\shared\lodepng.h" />
+    <ClInclude Include="C:\Users\Zack\Documents\PhoneSimulator\VR\PhoneSimulator\shared\pathtools.h" />
+    <ClInclude Include="C:\Users\Zack\Documents\PhoneSimulator\VR\PhoneSimulator\shared\strtools.h" />
+    <ClCompile Include="C:\Users\Zack\Documents\PhoneSimulator\VR\PhoneSimulator\phonesimulator\main.cpp"  />
+    <ClCompile Include="C:\Users\Zack\Documents\PhoneSimulator\VR\PhoneSimulator\phonesimulator\vrcontroller.cpp"  />
+    <ClInclude Include="C:\Users\Zack\Documents\PhoneSimulator\VR\PhoneSimulator\phonesimulator\vrcontroller.h" />
+    <ClCompile Include="C:\Users\Zack\Documents\PhoneSimulator\VR\PhoneSimulator\phonesimulator\mainscreen.cpp"  />
+    <ClInclude Include="C:\Users\Zack\Documents\PhoneSimulator\VR\PhoneSimulator\phonesimulator\mainscreen.h" />
+    <ClInclude Include="C:\Users\Zack\Documents\PhoneSimulator\VR\PhoneSimulator\phonesimulator\notificationgetter.h" />
+    <ClCompile Include="C:\Users\Zack\Documents\PhoneSimulator\VR\PhoneSimulator\phonesimulator\notificationgetter.cpp"  />
+    <ClCompile Include="C:\Users\Zack\Documents\PhoneSimulator\VR\PhoneSimulator\build\phonesimulator\phonesimulator_autogen\mocs_compilation.cpp"  />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="C:\Users\Zack\Documents\PhoneSimulator - Copy\VR\PhoneSimulator\build\ZERO_CHECK.vcxproj">
-      <Project>{FEF62F3C-A996-3608-B85B-3C58A0CBFAF2}</Project>
+    <ProjectReference Include="C:\Users\Zack\Documents\PhoneSimulator\VR\PhoneSimulator\build\ZERO_CHECK.vcxproj">
+      <Project>{32A72CC4-AAEF-3F0E-B49F-5B1BCD9A3083}</Project>
       <Name>ZERO_CHECK</Name>
     </ProjectReference>
   </ItemGroup>

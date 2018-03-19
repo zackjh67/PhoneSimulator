@@ -1,66 +1,72 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="C:\Users\Zack\Documents\PhoneSimulator - Copy\VR\PhoneSimulator\shared\Matrices.cpp">
+    <ClCompile Include="C:\Users\Zack\Documents\PhoneSimulator\VR\PhoneSimulator\shared\Matrices.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Zack\Documents\PhoneSimulator - Copy\VR\PhoneSimulator\shared\lodepng.cpp">
+    <ClCompile Include="C:\Users\Zack\Documents\PhoneSimulator\VR\PhoneSimulator\shared\lodepng.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Zack\Documents\PhoneSimulator - Copy\VR\PhoneSimulator\shared\pathtools.cpp">
+    <ClCompile Include="C:\Users\Zack\Documents\PhoneSimulator\VR\PhoneSimulator\shared\pathtools.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Zack\Documents\PhoneSimulator - Copy\VR\PhoneSimulator\shared\strtools.cpp">
+    <ClCompile Include="C:\Users\Zack\Documents\PhoneSimulator\VR\PhoneSimulator\shared\strtools.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Zack\Documents\PhoneSimulator - Copy\VR\PhoneSimulator\phonesimulator\main.cpp">
+    <ClCompile Include="C:\Users\Zack\Documents\PhoneSimulator\VR\PhoneSimulator\phonesimulator\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Zack\Documents\PhoneSimulator - Copy\VR\PhoneSimulator\phonesimulator\vrcontroller.cpp">
+    <ClCompile Include="C:\Users\Zack\Documents\PhoneSimulator\VR\PhoneSimulator\phonesimulator\vrcontroller.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Zack\Documents\PhoneSimulator - Copy\VR\PhoneSimulator\phonesimulator\mainscreen.cpp">
+    <ClCompile Include="C:\Users\Zack\Documents\PhoneSimulator\VR\PhoneSimulator\phonesimulator\mainscreen.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Zack\Documents\PhoneSimulator - Copy\VR\PhoneSimulator\build\phonesimulator\phonesimulator_autogen\mocs_compilation.cpp">
+    <ClCompile Include="C:\Users\Zack\Documents\PhoneSimulator\VR\PhoneSimulator\phonesimulator\notificationgetter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Zack\Documents\PhoneSimulator\VR\PhoneSimulator\build\phonesimulator\phonesimulator_autogen\mocs_compilation.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="C:\Users\Zack\Documents\PhoneSimulator - Copy\VR\PhoneSimulator\shared\Matrices.h">
+    <ClInclude Include="C:\Users\Zack\Documents\PhoneSimulator\VR\PhoneSimulator\shared\Matrices.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Zack\Documents\PhoneSimulator - Copy\VR\PhoneSimulator\shared\Vectors.h">
+    <ClInclude Include="C:\Users\Zack\Documents\PhoneSimulator\VR\PhoneSimulator\shared\Vectors.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Zack\Documents\PhoneSimulator - Copy\VR\PhoneSimulator\shared\compat.h">
+    <ClInclude Include="C:\Users\Zack\Documents\PhoneSimulator\VR\PhoneSimulator\shared\compat.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Zack\Documents\PhoneSimulator - Copy\VR\PhoneSimulator\shared\lodepng.h">
+    <ClInclude Include="C:\Users\Zack\Documents\PhoneSimulator\VR\PhoneSimulator\shared\lodepng.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Zack\Documents\PhoneSimulator - Copy\VR\PhoneSimulator\shared\pathtools.h">
+    <ClInclude Include="C:\Users\Zack\Documents\PhoneSimulator\VR\PhoneSimulator\shared\pathtools.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Zack\Documents\PhoneSimulator - Copy\VR\PhoneSimulator\shared\strtools.h">
+    <ClInclude Include="C:\Users\Zack\Documents\PhoneSimulator\VR\PhoneSimulator\shared\strtools.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Zack\Documents\PhoneSimulator - Copy\VR\PhoneSimulator\phonesimulator\vrcontroller.h">
+    <ClInclude Include="C:\Users\Zack\Documents\PhoneSimulator\VR\PhoneSimulator\phonesimulator\vrcontroller.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Zack\Documents\PhoneSimulator - Copy\VR\PhoneSimulator\phonesimulator\mainscreen.h">
+    <ClInclude Include="C:\Users\Zack\Documents\PhoneSimulator\VR\PhoneSimulator\phonesimulator\mainscreen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Zack\Documents\PhoneSimulator\VR\PhoneSimulator\phonesimulator\notificationgetter.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Zack\Documents\PhoneSimulator - Copy\VR\PhoneSimulator\phonesimulator\CMakeLists.txt" />
+    <CustomBuild Include="C:\Users\Zack\Documents\PhoneSimulator\VR\PhoneSimulator\phonesimulator\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{6D08DBC6-278A-34B7-887F-8E81823627CC}</UniqueIdentifier>
+      <UniqueIdentifier>{EE4A5638-F6EA-3212-95F2-7D11618125BF}</UniqueIdentifier>
     </Filter>
     <Filter Include="Header Files">
-      <UniqueIdentifier>{41C5B041-338D-3E07-8CA5-D92015A50439}</UniqueIdentifier>
+      <UniqueIdentifier>{706EEE83-BC15-3D6A-8601-7E5AC6B533F6}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

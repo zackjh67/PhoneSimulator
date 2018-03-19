@@ -20,6 +20,7 @@
 #include <QtWidgets/QGraphicsScene>
 #include <QOffscreenSurface>
 
+
 class QOpenGLFramebufferObject;
 
 class vrController : public QObject

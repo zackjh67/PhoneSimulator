@@ -11,12 +11,6 @@
 
 using namespace vr;
 
-//vrController::vrController(QObject *parent) : QObject(parent)
-//{
-
-//}
-
-
 
 vrController *s_pSharedVRController = NULL;
 
@@ -334,6 +328,7 @@ void vrController::SetWidget( QWidget *pWidget )
         };
         vr::VROverlay()->SetOverlayMouseScale( m_ulOverlayHandle, &vecWindowSize );
     }
+
 
 }
 

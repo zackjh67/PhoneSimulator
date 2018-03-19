@@ -1,6 +1,10 @@
+
 #include "mainscreen.h"
 #include "vrcontroller.h"
 #include <QApplication>
+#include <iostream>
+
+
 
 int main(int argc, char *argv[])
 {
@@ -11,8 +15,6 @@ int main(int argc, char *argv[])
 
     vrController::SharedInstance()->SetWidget( mainWidget );
 
-    //default method by QT, not implemented in steamVR overlay
-    //w.show();
-
     return a.exec();
+    //cout << "FUCK";
 }
