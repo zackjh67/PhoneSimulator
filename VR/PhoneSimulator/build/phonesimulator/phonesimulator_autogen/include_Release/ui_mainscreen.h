@@ -26,7 +26,6 @@ class Ui_MainScreen
 {
 public:
     QPushButton *sendButton;
-    QPushButton *connectButton;
     QLabel *label;
     QLabel *label_2;
     QListWidget *notificationListWidget;
@@ -42,9 +41,6 @@ public:
         sendButton->setGeometry(QRect(280, 460, 71, 23));
         sendButton->setMouseTracking(false);
         sendButton->setAutoDefault(false);
-        connectButton = new QPushButton(MainScreen);
-        connectButton->setObjectName(QStringLiteral("connectButton"));
-        connectButton->setGeometry(QRect(330, 10, 71, 21));
         label = new QLabel(MainScreen);
         label->setObjectName(QStringLiteral("label"));
         label->setGeometry(QRect(10, 0, 141, 21));
@@ -74,14 +70,13 @@ public:
     {
         MainScreen->setWindowTitle(QApplication::translate("MainScreen", "MainScreen", Q_NULLPTR));
         sendButton->setText(QApplication::translate("MainScreen", "Send", Q_NULLPTR));
-        connectButton->setText(QApplication::translate("MainScreen", "Connect", Q_NULLPTR));
         label->setText(QApplication::translate("MainScreen", "Phone Simulator", Q_NULLPTR));
         label_2->setText(QApplication::translate("MainScreen", "Type your reply", Q_NULLPTR));
 
         const bool __sortingEnabled = notificationListWidget->isSortingEnabled();
         notificationListWidget->setSortingEnabled(false);
         QListWidgetItem *___qlistwidgetitem = notificationListWidget->item(0);
-        ___qlistwidgetitem->setText(QApplication::translate("MainScreen", "Testing", Q_NULLPTR));
+        ___qlistwidgetitem->setText(QApplication::translate("MainScreen", "New Item", Q_NULLPTR));
         notificationListWidget->setSortingEnabled(__sortingEnabled);
 
     } // retranslateUi
