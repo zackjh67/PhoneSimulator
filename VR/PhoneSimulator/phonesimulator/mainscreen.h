@@ -30,14 +30,17 @@ public slots:
     //method to perform when notification has been posted
     void onNotifPosted(QString notification);
 
+    //input coming from keyboard
+    void SlotKeyboardDone(QString keyboardInput);
+
 private slots:
-    void on_connectButton_clicked();
 
     void on_sendButton_clicked();
 
     void on_notificationListWidget_itemClicked(QListWidgetItem *item);
 
 signals:
+        void showKeyboard();
 
 private:
     Ui::MainScreen *ui;

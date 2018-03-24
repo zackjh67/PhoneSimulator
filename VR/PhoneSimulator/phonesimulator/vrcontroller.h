@@ -48,10 +48,16 @@ public:
     QString GetName() { return m_strName; }
 
     void SetWidget( QWidget *pWidget );
+    void SetupSignals();
 
 public slots:
     void OnSceneChanged( const QList<QRectF>& );
     void OnTimeoutPumpEvents();
+    void showKeyboard();
+    void showNotification();
+
+signals:
+    void SigKeyboardDone(QString keyboardInput);
 
 protected:
 

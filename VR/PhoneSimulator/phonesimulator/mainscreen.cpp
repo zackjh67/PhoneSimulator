@@ -39,28 +39,35 @@ void MainScreen::onNotifPosted(QString notification)
     newItem->setText(notification);
     //listWidget->insertItem(row, newItem);
     ui->notificationListWidget->insertItem(0, newItem);
+
+
 }
 
 
-void MainScreen::on_connectButton_clicked()
-{
-    //logic to add notification to feed
-    QListWidgetItem *newItem = new QListWidgetItem;
-    newItem->setText("second item yo");
-    //listWidget->insertItem(row, newItem);
-    ui->notificationListWidget->insertItem(0, newItem);
-}
+//void MainScreen::on_connectButton_clicked()
+//{
+//    //logic to add notification to feed
+//    QListWidgetItem *newItem = new QListWidgetItem;
+//    newItem->setText("second item yo");
+//    //listWidget->insertItem(row, newItem);
+//    ui->notificationListWidget->insertItem(0, newItem);
+//}
 
 void MainScreen::on_sendButton_clicked()
 {
+    emit showKeyboard();
     //quits for now just as a test
     //QApplication::quit();
-    notificationGetter->start();
+    //notificationGetter->start();
 }
 
 void MainScreen::on_notificationListWidget_itemClicked(QListWidgetItem *item)
 {
     item->setText("You clicked the box, guy!");
+}
+
+void MainScreen::SlotKeyboardDone(QString keyboardInput){
+    ui->textEdit->setText(keyboardInput);
 }
 
 

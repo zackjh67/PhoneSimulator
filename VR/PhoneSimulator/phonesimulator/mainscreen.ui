@@ -32,19 +32,6 @@
     <bool>false</bool>
    </property>
   </widget>
-  <widget class="QPushButton" name="connectButton">
-   <property name="geometry">
-    <rect>
-     <x>330</x>
-     <y>10</y>
-     <width>71</width>
-     <height>21</height>
-    </rect>
-   </property>
-   <property name="text">
-    <string>Connect</string>
-   </property>
-  </widget>
   <widget class="QLabel" name="label">
    <property name="geometry">
     <rect>
@@ -98,7 +85,7 @@
    </property>
    <item>
     <property name="text">
-     <string>Testing</string>
+     <string>New Item</string>
     </property>
    </item>
   </widget>

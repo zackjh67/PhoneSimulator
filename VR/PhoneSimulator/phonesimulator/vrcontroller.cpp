@@ -51,6 +51,60 @@ vrController::~vrController()
 }
 
 
+void vrController::showNotification(){
+
+
+
+//    //virtual EVRNotificationError CreateNotification( VROverlayHandle_t ulOverlayHandle,
+//    //uint64_t ulUserValue,
+//    //EVRNotificationType type,
+//    //const char *pchText,
+//    //EVRNotificationStyle style,
+//    //const NotificationBitmap_t *pImage,
+//    /* out */ //VRNotificationId *pNotificationId ) = 0;
+
+//    //uint32_t i guess
+//    VRNotificationId vrNotifId = 69;
+// vr::IVRNotifications.CreateNotification(m_ulOverlayHandle, 69, EVRNotificationType_Transient, "this is a notification test", EVRNotificationStyle_None, NULL, &vrNotifId);
+        //vr:IVRNotifications nots = new vr::IVRNotifications();
+
+
+}
+
+
+
+
+void vrController:: showKeyboard(){
+    //from header file
+    /** Show the virtual keyboard to accept input **/
+    //		virtual EVROverlayError ShowKeyboard( EGamepadTextInputMode eInputMode,
+//    EGamepadTextInputLineMode eLineInputMode,
+//            const char *pchDescription,
+//            uint32_t unCharMax,
+//            const char *pchExistingText,
+//            bool bUseMinimalMode, uint64_t uUserValue ) = 0;
+    //virtual EVROverlayError ShowKeyboardForOverlay( VROverlayHandle_t ulOverlayHandle,
+    //                                                EGamepadTextInputMode eInputMode,
+    //                                                EGamepadTextInputLineMode eLineInputMode,
+    //                                                const char *pchDescription,
+    //                                                uint32_t unCharMax,
+    //                                                const char *pchExistingText,
+    //                                                bool bUseMinimalMode,
+    //                                                uint64_t uUserValue ) = 0;//possible flags about the user input?
+
+
+    vr::VROverlay()->ShowKeyboardForOverlay(m_ulOverlayHandle,//handle to our overlay
+                                            vr::k_EGamepadTextInputModeNormal,//normal, password, or submit
+                                            vr::k_EGamepadTextInputLineModeMultipleLines,//single or multiple
+                                            "Whats a pch description",//unsure still
+                                            1024,//max number of chars
+                                            "",//any text you would like to start already typed
+                                            false,//minimal mode
+                                            0);//possible user defined flags
+}
+
+
+
 
 QString GetTrackedDeviceString( vr::IVRSystem *pHmd, vr::TrackedDeviceIndex_t unDevice, vr::TrackedDeviceProperty prop )
 {
@@ -119,12 +173,16 @@ bool vrController::Init()
         vr::VROverlay()->SetOverlayWidthInMeters( m_ulOverlayHandle, 1.5f );
         vr::VROverlay()->SetOverlayInputMethod( m_ulOverlayHandle, vr::VROverlayInputMethod_Mouse );
 
+        /** Sets the alpha of the overlay quad. Use 1.0 for 100 percent opacity to 0.0 for 0 percent opacity. */
+        vr::VROverlay()->SetOverlayAlpha(m_ulOverlayHandle, 0.4f);
+
         m_pPumpEventsTimer = new QTimer( this );
         connect(m_pPumpEventsTimer, SIGNAL( timeout() ), this, SLOT( OnTimeoutPumpEvents() ) );
         m_pPumpEventsTimer->setInterval( 20 );
         m_pPumpEventsTimer->start();
 
     }
+
     return true;
 }
 
@@ -284,11 +342,21 @@ void vrController::OnTimeoutPumpEvents()
         case vr::VREvent_Quit:
             QApplication::exit();
             break;
+
+            //keyboard done button event
+        case vr::VREvent_KeyboardDone: {
+            char keyboardBuffer[1024];
+            vr::VROverlay()->GetKeyboardText(keyboardBuffer, 1024);
+            //emit keyBoardInputSignal(QString(keyboardBuffer), vrEvent.data.keyboard.uUserValue);
+            emit SigKeyboardDone(QString(keyboardBuffer));
+        }
         }
     }
 
     if( m_ulOverlayThumbnailHandle != vr::k_ulOverlayHandleInvalid )
     {
+
+
         while( vr::VROverlay()->PollNextOverlayEvent( m_ulOverlayThumbnailHandle, &vrEvent, sizeof( vrEvent)  ) )
         {
             switch( vrEvent.eventType )
@@ -328,8 +396,13 @@ void vrController::SetWidget( QWidget *pWidget )
         };
         vr::VROverlay()->SetOverlayMouseScale( m_ulOverlayHandle, &vecWindowSize );
     }
+}
 
-
+void vrController::SetupSignals(){
+    //signal to show keyboard upon entering text field
+    connect( m_pWidget, SIGNAL(showKeyboard()), this, SLOT(showKeyboard()) );
+    //signal to send keyboard input to textedit
+    connect(this, SIGNAL(SigKeyboardDone(QString)), m_pWidget, SLOT(SlotKeyboardDone(QString)));
 }
 
 
@@ -386,3 +459,5 @@ vr::HmdError vrController::GetLastHmdError()
 {
     return m_eLastHmdError;
 }
+
+

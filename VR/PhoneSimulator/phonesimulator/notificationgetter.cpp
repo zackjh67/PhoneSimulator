@@ -51,6 +51,11 @@ void NotificationGetter::run()
             //get file from path
             QFile file(path);
 
+            //TODO error check later
+            if(!file.open(QIODevice::ReadOnly)) {
+                //QMessageBox::information(0, "error", file.errorString());
+            }
+
             QTextStream in(&file);
 
             while(!in.atEnd()) {
