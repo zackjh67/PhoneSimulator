@@ -20,8 +20,8 @@
 
 QT_BEGIN_MOC_NAMESPACE
 struct qt_meta_stringdata_vrController_t {
-    QByteArrayData data[9];
-    char stringdata0[123];
+    QByteArrayData data[10];
+    char stringdata0[140];
 };
 #define QT_MOC_LITERAL(idx, ofs, len) \
     Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
@@ -38,13 +38,14 @@ QT_MOC_LITERAL(4, 44, 14), // "OnSceneChanged"
 QT_MOC_LITERAL(5, 59, 13), // "QList<QRectF>"
 QT_MOC_LITERAL(6, 73, 19), // "OnTimeoutPumpEvents"
 QT_MOC_LITERAL(7, 93, 12), // "showKeyboard"
-QT_MOC_LITERAL(8, 106, 16) // "showNotification"
+QT_MOC_LITERAL(8, 106, 16), // "showNotification"
+QT_MOC_LITERAL(9, 123, 16) // "notificationText"
 
     },
     "vrController\0SigKeyboardDone\0\0"
     "keyboardInput\0OnSceneChanged\0QList<QRectF>\0"
     "OnTimeoutPumpEvents\0showKeyboard\0"
-    "showNotification"
+    "showNotification\0notificationText"
 };
 #undef QT_MOC_LITERAL
 
@@ -68,7 +69,7 @@ static const uint qt_meta_data_vrController[] = {
        4,    1,   42,    2, 0x0a /* Public */,
        6,    0,   45,    2, 0x0a /* Public */,
        7,    0,   46,    2, 0x0a /* Public */,
-       8,    0,   47,    2, 0x0a /* Public */,
+       8,    1,   47,    2, 0x0a /* Public */,
 
  // signals: parameters
     QMetaType::Void, QMetaType::QString,    3,
@@ -77,7 +78,7 @@ static const uint qt_meta_data_vrController[] = {
     QMetaType::Void, 0x80000000 | 5,    2,
     QMetaType::Void,
     QMetaType::Void,
-    QMetaType::Void,
+    QMetaType::Void, QMetaType::QString,    9,
 
        0        // eod
 };
@@ -92,7 +93,7 @@ void vrController::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id
         case 1: _t->OnSceneChanged((*reinterpret_cast< const QList<QRectF>(*)>(_a[1]))); break;
         case 2: _t->OnTimeoutPumpEvents(); break;
         case 3: _t->showKeyboard(); break;
-        case 4: _t->showNotification(); break;
+        case 4: _t->showNotification((*reinterpret_cast< QString(*)>(_a[1]))); break;
         default: ;
         }
     } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
