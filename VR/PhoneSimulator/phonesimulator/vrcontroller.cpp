@@ -51,23 +51,32 @@ vrController::~vrController()
 }
 
 
-void vrController::showNotification(){
+void vrController::showNotification(QString notificationText){
+
+/* From header file */
+    //virtual EVRNotificationError CreateNotification( VROverlayHandle_t ulOverlayHandle,
+    //uint64_t ulUserValue,
+    //EVRNotificationType type,
+    //const char *pchText,
+    //EVRNotificationStyle style,
+    //const NotificationBitmap_t *pImage,
+    /* out */ //VRNotificationId *pNotificationId ) = 0;
 
 
+    //Create IVRNotifications object
+    //TODO handle error parameter
+    vr::IVRNotifications* notifs = (vr::IVRNotifications*)vr::VR_GetGenericInterface(vr::IVRNotifications_Version, NULL);
 
-//    //virtual EVRNotificationError CreateNotification( VROverlayHandle_t ulOverlayHandle,
-//    //uint64_t ulUserValue,
-//    //EVRNotificationType type,
-//    //const char *pchText,
-//    //EVRNotificationStyle style,
-//    //const NotificationBitmap_t *pImage,
-//    /* out */ //VRNotificationId *pNotificationId ) = 0;
+    //notification id assigned by the system
+    vr::VRNotificationId notifId;
 
-//    //uint32_t i guess
-//    VRNotificationId vrNotifId = 69;
-// vr::IVRNotifications.CreateNotification(m_ulOverlayHandle, 69, EVRNotificationType_Transient, "this is a notification test", EVRNotificationStyle_None, NULL, &vrNotifId);
-        //vr:IVRNotifications nots = new vr::IVRNotifications();
+    //convert QString to const char*
+    QByteArray ba = notificationText.toLatin1();
+    const char *c_str2 = ba.data();
 
+    //TODO (in polish GUI) create bitmap for notification
+    notifs->CreateNotification(m_ulOverlayHandle, 69, vr::EVRNotificationType_Transient,
+                               c_str2, vr::EVRNotificationStyle_None, NULL, &notifId);
 
 }
 
@@ -403,6 +412,7 @@ void vrController::SetupSignals(){
     connect( m_pWidget, SIGNAL(showKeyboard()), this, SLOT(showKeyboard()) );
     //signal to send keyboard input to textedit
     connect(this, SIGNAL(SigKeyboardDone(QString)), m_pWidget, SLOT(SlotKeyboardDone(QString)));
+    //signal that notification has been received
 }
 
 

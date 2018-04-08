@@ -54,7 +54,7 @@ public slots:
     void OnSceneChanged( const QList<QRectF>& );
     void OnTimeoutPumpEvents();
     void showKeyboard();
-    void showNotification();
+    void showNotification(QString notificationText);
 
 signals:
     void SigKeyboardDone(QString keyboardInput);

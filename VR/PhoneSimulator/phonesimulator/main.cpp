@@ -15,7 +15,10 @@ int main(int argc, char *argv[])
     vrController::SharedInstance()->Init();
     //set widget to use for screen
     vrController::SharedInstance()->SetWidget( mainWidget );
+
     //setup signal event handlers
+    //QObject::connect(vrController::SharedInstance(), SLOT(showKeyboard()), mainWidget, SIGNAL(showKeyboard()));
+
     vrController::SharedInstance()->SetupSignals();
 
     return a.exec();

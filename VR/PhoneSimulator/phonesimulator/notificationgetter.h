@@ -20,7 +20,7 @@ public:
     bool Stop;
 
 signals:
-    //sends signal to GUI that notification has been posted
+    //sends signal to GUI and controller that notification has been posted
     void notifPosted(QString);
 
 public slots:
