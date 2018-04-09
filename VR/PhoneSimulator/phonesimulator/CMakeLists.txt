@@ -16,8 +16,8 @@ add_executable(${TARGET_NAME}
   vrcontroller.h
   mainscreen.cpp
   mainscreen.h
-  notificationgetter.h
-  notificationgetter.cpp
+  notificationhandler.h
+  notificationhandler.cpp
 )
 
 add_definitions(${QT_DEFINITIONS})

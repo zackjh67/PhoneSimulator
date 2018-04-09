@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.0.2)
+﻿cmake_minimum_required(VERSION 3.0.2)
 
 project(openvr_samples)
 
@@ -190,13 +190,14 @@ set(CMAKE_AUTOUIC ON)
 set(CMAKE_INCLUDE_CURRENT_DIR ON)
 
 # Find Qt5 libraries.
-foreach(module Core Gui Widgets)
+foreach(module Core Gui Widgets Network)
     find_package(Qt5 REQUIRED COMPONENTS ${module})
     list(APPEND QT_INCLUDE_DIRS "${Qt5${module}_INCLUDE_DIRS}")
     list(APPEND QT_LIBRARIES    "${Qt5${module}_LIBRARIES}")
     list(APPEND QT_FLAGS        "${Qt5${module}_EXECUTABLE_COMPILE_FLAGS}")
     list(APPEND QT_DEFINITIONS  "${Qt5${module}_DEFINITIONS}")
 endforeach()
+
 # Correct QT_FLAGS having semicolons, which break the compile step on POSIX
 list(REMOVE_DUPLICATES QT_FLAGS)
 

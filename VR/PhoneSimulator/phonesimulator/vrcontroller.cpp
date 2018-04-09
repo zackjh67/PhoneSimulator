@@ -112,6 +112,15 @@ void vrController:: showKeyboard(){
                                             0);//possible user defined flags
 }
 
+void vrController::onNotificationPosted(QJsonObject notif)
+{
+    //check if overlay is in view or not
+    if(!vr::VROverlay()->IsOverlayVisible(m_ulOverlayHandle)){
+        //if not, show notification popup
+        this->showNotification(notif["message"].toString());
+    }
+}
+
 
 
 
@@ -136,7 +145,7 @@ bool vrController::Init()
 {
     bool bSuccess = true;
 
-    m_strName = "systemoverlay";
+    m_strName = "Phone Simulator";
 
     QStringList arguments = qApp->arguments();
 
@@ -408,11 +417,7 @@ void vrController::SetWidget( QWidget *pWidget )
 }
 
 void vrController::SetupSignals(){
-    //signal to show keyboard upon entering text field
-    connect( m_pWidget, SIGNAL(showKeyboard()), this, SLOT(showKeyboard()) );
-    //signal to send keyboard input to textedit
-    connect(this, SIGNAL(SigKeyboardDone(QString)), m_pWidget, SLOT(SlotKeyboardDone(QString)));
-    //signal that notification has been received
+
 }
 
 

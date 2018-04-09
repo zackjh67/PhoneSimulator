@@ -22,7 +22,7 @@
     <ClCompile Include="C:\Users\Zack\Documents\PhoneSimulator\VR\PhoneSimulator\phonesimulator\mainscreen.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Zack\Documents\PhoneSimulator\VR\PhoneSimulator\phonesimulator\notificationgetter.cpp">
+    <ClCompile Include="C:\Users\Zack\Documents\PhoneSimulator\VR\PhoneSimulator\phonesimulator\notificationhandler.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="C:\Users\Zack\Documents\PhoneSimulator\VR\PhoneSimulator\build\phonesimulator\phonesimulator_autogen\mocs_compilation.cpp">
@@ -54,7 +54,7 @@
     <ClInclude Include="C:\Users\Zack\Documents\PhoneSimulator\VR\PhoneSimulator\phonesimulator\mainscreen.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Zack\Documents\PhoneSimulator\VR\PhoneSimulator\phonesimulator\notificationgetter.h">
+    <ClInclude Include="C:\Users\Zack\Documents\PhoneSimulator\VR\PhoneSimulator\phonesimulator\notificationhandler.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

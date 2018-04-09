@@ -49,12 +49,13 @@ public:
 
     void SetWidget( QWidget *pWidget );
     void SetupSignals();
+    void showNotification(QString notificationText);
 
 public slots:
     void OnSceneChanged( const QList<QRectF>& );
     void OnTimeoutPumpEvents();
     void showKeyboard();
-    void showNotification(QString notificationText);
+    void onNotificationPosted(QJsonObject notif);
 
 signals:
     void SigKeyboardDone(QString keyboardInput);
