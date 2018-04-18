@@ -22,14 +22,14 @@ namespace Desktop_Client
     {
 
         ConnectionViewModel cvm;
-        tempServercs ts;
+        Server ts;
 
         public Connection()
         {
 
             cvm = new ConnectionViewModel();
             DataContext = cvm;
-            ts = new tempServercs();
+            ts = new Server();
             InitializeComponent();
         }
 

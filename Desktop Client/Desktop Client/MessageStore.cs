@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -12,6 +14,7 @@ namespace Desktop_Client
         public List<String> messages { get; set; }
         string message;
 
+
         public MessageStore()
         {
             messages = new List<String>();
@@ -24,19 +27,40 @@ namespace Desktop_Client
             System.IO.File.AppendAllText(@"C:\Users\Mike\Desktop\WriteLines.txt", message);
         }
 
-        public static string getMessage()
-        {
-            string line;
-            string message = "This is not from file. ";
+        public void test() {
 
-            StreamReader file = new StreamReader(@"C:\Users\Mike\Desktop\WriteLines.txt");
-            while ((line = file.ReadLine()) != null)
-            {
-                //string message = ""; 
-                message += line;
-            }
+            string sample = "{\"nActions\":\"[{\"mChoices\":[\"OK\",\"Give me a minute\",\"On my way\",\"Thanks\",\"Sounds good\",\"What\\u0027s up?\",\"Yes\",\"No\",\"??\",\"??\",\"??\"],\"mExtras\":{\"mAllowFds\":true,\"mFdsKnown\":true,\"mHasFds\":false,\"mParcelledData\":{\"mOwnsNativeParcelObject\":true,\"mNativePtr\":-1386159824}},\"mLabel\":\"Reply\",\"mResultKey\":\"android.intent.extra.TEXT\",\"mFlags\":1}]\"," +
+                            "\"nPackage\":\"com.google.android.talk\"," +
+                            "\"nText\":\"This is hangouts\"," +
+                            "\"nTicker\":\"Phil Garza: This is hangouts\"," +
+                            "\"nTitle\":\"Phil Garza\"}";
 
-            return message;
+            var JSON = JsonConvert.DeserializeObject(sample);
+
+            JObject serialized = JObject.FromObject(JSON);
+            JToken message;
+            serialized.TryGetValue("nText", out message);
+            Console.WriteLine(message.ToString());
+
+
         }
+
+        //public static string getMessage(EnvironmentVariableTarget JSONMessage)
+        //{
+        //    //dynamic message = JObject.Parse
+
+
+        //   // string line;
+
+
+        //    StreamReader file = new StreamReader(@"C:\Users\Mike\Desktop\WriteLines.txt");
+        //    //while ((line = file.ReadLine()) != null)
+        //    {
+        //        //string message = ""; 
+        //        //message += line;
+        //    }
+
+        //    //return message;
+        //}
     }
 }

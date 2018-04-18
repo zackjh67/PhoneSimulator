@@ -145,13 +145,14 @@
             <Button x:Name="ConnectionButton" Content="Connection"  Style="{StaticResource NavBarButton}" Width="75"  MinWidth="100" Click="connectionButton_click" HorizontalAlignment="Right"/>
         </StackPanel>
         
-        <Button Name="ConnectButton" Height="24" Width="24" VerticalAlignment="Top" HorizontalAlignment="Right" Margin="0,5.5,5.5,0" Style="{StaticResource Hoverless}">        
+        <Button Name="ConnectButton" Height="24" Width="24" VerticalAlignment="Top" HorizontalAlignment="Right" Margin="0,5.5,5.5,0" Style="{StaticResource Hoverless}" Click="connectButton_click">        
             <Button.Background>
                 <ImageBrush ImageSource="res/discIcon.ico"/>
             </Button.Background>
         </Button>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="-133,164,0,0" VerticalAlignment="Top" Width="75"/>
 
-        
+
 
 
     </Grid>

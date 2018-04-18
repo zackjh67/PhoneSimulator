@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
@@ -22,8 +23,10 @@ namespace Desktop_Client
     {
 
         MessageListPage messageListPage;
+        MessageStore messageStore;
         Connection connectionPage;
         Devices devicesPage;
+        Server server;
         
 
         public Connection ConnectionPage { get => connectionPage; set => connectionPage = value; }
@@ -33,6 +36,8 @@ namespace Desktop_Client
             messageListPage = new MessageListPage();
             connectionPage = new Connection();
             devicesPage = new Devices();
+            messageStore = new MessageStore();
+            server = new Server();
             this.DataContext = new WindowViewModel(this);
             InitializeComponent();
         }
@@ -45,12 +50,24 @@ namespace Desktop_Client
 
         private void connectionButton_click(object sender, RoutedEventArgs e)
         {
-           // Main.Content = connectionPage;
+          if (server.client != null)
+            {
+                server.client.sendMesage("This is a test message from the desktop client");
+            }
+           
         }
 
         private void devicesButton_click(object sender, RoutedEventArgs e)
         {
-          //  Main.Content = devicesPage;
+            messageStore.test();
+        }
+
+        private void connectButton_click(object sender, RoutedEventArgs e)
+        {
+
+            Task.Factory.StartNew(() => { server.StartListening(); });
+
+            //Dispatcher.Invoke(server.StartListening);
         }
     }
 }

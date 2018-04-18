@@ -15,7 +15,7 @@ namespace Desktop_Client
         //The Window this view controls.
         private Window _window;
 
-        private int _outerMarginSize = 10;
+        private int _outerMarginSize = 0;
         private int _windowRadius = 10;
 
         private WindowDockPosition _DockPosition = WindowDockPosition.Undocked;
