@@ -1,0 +1,37 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:local="clr-namespace:Desktop_Client">
+
+    <Color x:Key="MainBackgroundGray">#FF272822</Color>
+    <SolidColorBrush x:Key="MainBackgroundGrayBrush" Color="{StaticResource MainBackgroundGray}"/>
+
+    <Color x:Key="WindowBorderGray">#FF2D2D30</Color>
+    <SolidColorBrush x:Key="WindowBorderGrayBrush" Color="{StaticResource WindowBorderGray}"/>
+
+    <Color x:Key="TextWhite">#FFF8F8F2</Color>
+    <SolidColorBrush x:Key="TextWhiteBrush" Color="{StaticResource TextWhite}"/>
+
+    <Color x:Key="ProfilePicLightGray">#FF75715E</Color>
+    <SolidColorBrush x:Key="ProfilePicLightGrayBrush" Color="{StaticResource ProfilePicLightGray}"/>
+
+    <Color x:Key="SublimeLightYellow">#FFE6DB74</Color>
+    <SolidColorBrush x:Key="SublimeLightYellowBrush" Color="{StaticResource SublimeLightYellow}"/>
+
+    <Color x:Key="SublimeLightPink">#FFF92672</Color>
+    <SolidColorBrush x:Key="SublimeLightPinkBrush" Color="{StaticResource SublimeLightPink}"/>
+
+    <Color x:Key="SublimeLightBlue">#FF66D9EF</Color>
+    <SolidColorBrush x:Key="SublimeLightBlueBrush" Color="{StaticResource SublimeLightBlue}"/>
+
+    <Color x:Key="SublimeLightPurple">#FFAE81FF</Color>
+    <SolidColorBrush x:Key="SublimeLightPurpleBrush" Color="{StaticResource SublimeLightPurple}"/>
+
+    <Color x:Key="SublimeLightOrange">#FFCC8114</Color>
+    <SolidColorBrush x:Key="SublimeLightOrangeBrush" Color="{StaticResource SublimeLightOrange}"/>
+
+    <Color x:Key="SublimeLightGreen">#FFA6E22E</Color>
+    <SolidColorBrush x:Key="SublimeLightGreenBrush" Color="{StaticResource SublimeLightGreen}"/>
+
+
+
+</ResourceDictionary>
