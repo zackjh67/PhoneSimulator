@@ -19,6 +19,14 @@ namespace Desktop_Client
 
         public TcpClient clientSocket;
 
+        public MessageStore messageStore;
+
+        public Server(MessageStore store)
+        {
+            this.messageStore = store;
+        }
+
+
         public void startServer()
         {
             Thread thread = new Thread(StartListening);
@@ -29,6 +37,7 @@ namespace Desktop_Client
         {
 
             ConnectionViewModel connectionViewModel = new ConnectionViewModel();
+
 
             // Establish the local endpoint for the socket.  
             // The DNS name of the computer  
@@ -66,7 +75,7 @@ namespace Desktop_Client
                 //Thread clientSocketThread = new Thread(new handleClient());
                 client = new handleClient();
                 // Set Class fields.
-                client.startClient(clientSocket, Convert.ToString(counter));
+                client.startClient(clientSocket, Convert.ToString(counter), messageStore);
                 // Start Thread to receive messages
                 client.receiveMessage();
                 //Start Thread to send messages
@@ -86,11 +95,17 @@ namespace Desktop_Client
     }
 
     //Class to handle each client request separatly
-    public class handleClient
+    class handleClient
     {
         TcpClient clientSocket;
+        public MessageStore messageStore;
         public NetworkStream networkStream { get; set; }
         string clNo;
+
+        public handleClient()
+        {
+           
+        }
 
         public void receiveMessage()
         {
@@ -106,11 +121,12 @@ namespace Desktop_Client
 
 
 
-        public void startClient(TcpClient inClientSocket, string clineNo)
+        public void startClient(TcpClient inClientSocket, string clineNo, MessageStore messageStore)
         {
             this.clientSocket = inClientSocket;
             this.clNo = clineNo;
             this.networkStream = clientSocket.GetStream();
+            this.messageStore = messageStore;
         }
 
 
@@ -147,6 +163,7 @@ namespace Desktop_Client
                         if (numberOfBytesRead > 0)
                         {
                             string temp = myMessage;
+                            messageStore.SerializeJSONAndStore(temp, DateTime.Now);
                             Console.WriteLine(" >> " + "From client-" + temp + " " + DateTime.Now);
                             string[] myCommand = temp.Split(' ');
                             if (myCommand[0].Contains("Connect"))
@@ -176,17 +193,20 @@ namespace Desktop_Client
 
         private void sendToPhone(string message)
         {
-         
 
-            byte[] messageBytes = Encoding.UTF8.GetBytes(message);
-            byte[] numMessageBytes = BitConverter.GetBytes(messageBytes.Length);
+            string outMsg = messageStore.getJSON("2798083", message);
+
+
+            byte[] sendBytes = Encoding.UTF8.GetBytes(outMsg);
+            byte[] num = System.BitConverter.GetBytes(sendBytes.Length);
+           
 
             try
             {
                 if (clientSocket.Connected)
                 {
-                    networkStream.Write(numMessageBytes, 0, 4);
-                    networkStream.Write(messageBytes, 0, BitConverter.ToInt32(numMessageBytes, 0));                 
+                    networkStream.Write(num, 0, 4);
+                    networkStream.Write(sendBytes, 0, sendBytes.Length);
                 }
             }
             catch (Exception ex)

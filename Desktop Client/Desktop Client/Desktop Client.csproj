@@ -91,6 +91,7 @@
     </Compile>
     <Compile Include="DataModels\ApplicationPage.cs" />
     <Compile Include="HelperClasses\WindowResizer.cs" />
+    <Compile Include="Message.cs" />
     <Compile Include="MessageStore.cs" />
     <Compile Include="DataModels\Message.cs" />
     <Compile Include="mockup.cs" />

@@ -29,7 +29,7 @@ namespace Desktop_Client
 
             cvm = new ConnectionViewModel();
             DataContext = cvm;
-            ts = new Server();
+            //ts = new Server(messa);
             InitializeComponent();
         }
 

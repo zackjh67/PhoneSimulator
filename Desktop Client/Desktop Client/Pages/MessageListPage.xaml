@@ -9,8 +9,8 @@
       Title="MessageListPage">
 
     <Grid>
-        
-            <local:MessageListControl Height="500" Width="500" VerticalAlignment="Top"></local:MessageListControl>
+
+        <local:MessageListControl DataContext="{x:Static local:MessageListDesignModel.Instance}" Height="500" Width="500" VerticalAlignment="Top"></local:MessageListControl>
         
     </Grid>
 </Page>

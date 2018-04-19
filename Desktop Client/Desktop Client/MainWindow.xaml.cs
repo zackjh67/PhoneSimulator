@@ -37,7 +37,7 @@ namespace Desktop_Client
             connectionPage = new Connection();
             devicesPage = new Devices();
             messageStore = new MessageStore();
-            server = new Server();
+            server = new Server(messageStore);
             this.DataContext = new WindowViewModel(this);
             InitializeComponent();
         }

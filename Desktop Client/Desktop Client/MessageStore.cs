@@ -11,13 +11,12 @@ namespace Desktop_Client
 {
     class MessageStore
     {
-        public List<String> messages { get; set; }
-        string message;
+        public List<Message> messages { get; set; }
 
 
         public MessageStore()
         {
-            messages = new List<String>();
+            messages = new List<Message>();
         }
 
         public static void writeInfo(string message) {
@@ -27,9 +26,46 @@ namespace Desktop_Client
             System.IO.File.AppendAllText(@"C:\Users\Mike\Desktop\WriteLines.txt", message);
         }
 
+        public void SerializeJSONAndStore(String text, DateTime time)
+        {
+            
+            var deSerialized = JsonConvert.DeserializeObject(text);
+            JObject serialized = JObject.FromObject(deSerialized);
+            JToken message;
+            JToken sender;
+            serialized.TryGetValue("nText", out message);
+            serialized.TryGetValue("nTitle", out sender);
+
+            Message msg = new Message(sender.ToString(), message.ToString());
+
+            Console.WriteLine(msg.who + ": " + msg.message);
+
+            foreach (Message i in messages)
+            {
+                string senderName = i.who;
+                if (msg.who.Equals(sender.ToString())) {
+
+                }
+            }
+
+            messages.Add(msg);
+          
+        }
+
+        public string getJSON(string who, string message)
+        {
+            Message outMsg = new Message(who, message);
+            
+            JObject outJSON = (JObject)JToken.FromObject(outMsg);
+
+            return outJSON.ToString();
+
+             
+        }
+
         public void test() {
 
-            string sample = "{\"nActions\":\"[{\"mChoices\":[\"OK\",\"Give me a minute\",\"On my way\",\"Thanks\",\"Sounds good\",\"What\\u0027s up?\",\"Yes\",\"No\",\"??\",\"??\",\"??\"],\"mExtras\":{\"mAllowFds\":true,\"mFdsKnown\":true,\"mHasFds\":false,\"mParcelledData\":{\"mOwnsNativeParcelObject\":true,\"mNativePtr\":-1386159824}},\"mLabel\":\"Reply\",\"mResultKey\":\"android.intent.extra.TEXT\",\"mFlags\":1}]\"," +
+            string sample = "{\"nActions\":\"[{\"mChoices\":[\"OK\",\"Give me a minute\",\"On my way\",\"Thanks\",\"Sounds good\",\"What up\",\"Yes\",\"No\",\"??\",\"??\",\"??\"],\"mExtras\":{\"mAllowFds\":true,\"mFdsKnown\":true,\"mHasFds\":false,\"mParcelledData\":{\"mOwnsNativeParcelObject\":true,\"mNativePtr\":-1386159824}},\"mLabel\":\"Reply\",\"mResultKey\":\"android.intent.extra.TEXT\",\"mFlags\":1}]\"," +
                             "\"nPackage\":\"com.google.android.talk\"," +
                             "\"nText\":\"This is hangouts\"," +
                             "\"nTicker\":\"Phil Garza: This is hangouts\"," +
