@@ -6,6 +6,7 @@ namespace Desktop_Client
     /// </summary>
     public class MessageListItemViewModel : BaseViewModel
     {
+        //ASDF
         public string Name { get; set; }
         public string Initials { get; set; }
         public string MessageText { get; set; }
