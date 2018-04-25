@@ -12,13 +12,16 @@ TEMPLATE = app
 SOURCES += main.cpp\
         mainscreen.cpp \
     vrcontroller.cpp \
-    notificationhandler.cpp
+    notificationhandler.cpp \
+    notificationviewer.cpp
 
 HEADERS  += mainscreen.h \
     vrcontroller.h \
-    notificationhandler.h
+    notificationhandler.h \
+    notificationviewer.h
 
-FORMS    += mainscreen.ui
+FORMS    += mainscreen.ui \
+    notificationviewer.ui
 
 
 INCLUDEPATH += ../../headers

@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Zack\Documents\PhoneSimulator\VR\PhoneSimulator\build\CMakeFiles\325788bb3b08ca91dd12b72ea7a19c57\generate.stamp.rule">
+    <CustomBuild Include="E:\Zack\PhoneSimulator\VR\PhoneSimulator\build\CMakeFiles\0f0fc552ce49f76dd8a8b7e4a34bc5fa\generate.stamp.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="CMake Rules">
-      <UniqueIdentifier>{35081B74-055C-3789-8642-294230E58CED}</UniqueIdentifier>
+      <UniqueIdentifier>{96A6647F-8031-3E3B-AA24-8E7A7FA9FE6F}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

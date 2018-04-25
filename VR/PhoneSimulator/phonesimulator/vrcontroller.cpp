@@ -8,6 +8,7 @@
 #include <QtWidgets/QApplication>
 #include <QtWidgets/QGraphicsEllipseItem>
 #include <QCursor>
+#include <QPushButton>
 
 using namespace vr;
 
@@ -74,9 +75,21 @@ void vrController::showNotification(QString notificationText){
     QByteArray ba = notificationText.toLatin1();
     const char *c_str2 = ba.data();
 
+    vr::NotificationBitmap_t* bit = new vr::NotificationBitmap_t();
+
+
+
+//        bit->m_pImageData = (void*)m_ulOverlayThumbnailHandle;
+//        bit->m_nBytesPerPixel = 10;
+//        bit->m_nHeight = 10;
+//        bit->m_nWidth = 10;
+   //qDebug() << vr::VROverlay()->GetOverlayImageData(m_ulOverlayThumbnailHandle, );
+
     //TODO (in polish GUI) create bitmap for notification
     notifs->CreateNotification(m_ulOverlayHandle, 69, vr::EVRNotificationType_Transient,
                                c_str2, vr::EVRNotificationStyle_None, NULL, &notifId);
+
+
 
 }
 
@@ -114,11 +127,17 @@ void vrController:: showKeyboard(){
 
 void vrController::onNotificationPosted(QJsonObject notif)
 {
-    //check if overlay is in view or not
-    if(!vr::VROverlay()->IsOverlayVisible(m_ulOverlayHandle)){
+
+    //overlay visible?
+    if( !vr::VROverlay() ||
+        ( vr::VROverlay()->IsOverlayVisible( m_ulOverlayHandle ) && vr::VROverlay()->IsOverlayVisible( m_ulOverlayThumbnailHandle ) ) )
+        return;
+    else {
         //if not, show notification popup
-        this->showNotification(notif["message"].toString());
+        this->showNotification(notif["nTicker"].toString());
     }
+
+
 }
 
 
@@ -193,6 +212,10 @@ bool vrController::Init()
 
         /** Sets the alpha of the overlay quad. Use 1.0 for 100 percent opacity to 0.0 for 0 percent opacity. */
         vr::VROverlay()->SetOverlayAlpha(m_ulOverlayHandle, 0.4f);
+
+        //vr::VROverlay()->SetHighQualityOverlay(m_ulOverlayThumbnailHandle);
+
+
 
         m_pPumpEventsTimer = new QTimer( this );
         connect(m_pPumpEventsTimer, SIGNAL( timeout() ), this, SLOT( OnTimeoutPumpEvents() ) );
@@ -367,6 +390,7 @@ void vrController::OnTimeoutPumpEvents()
             vr::VROverlay()->GetKeyboardText(keyboardBuffer, 1024);
             //emit keyBoardInputSignal(QString(keyboardBuffer), vrEvent.data.keyboard.uUserValue);
             emit SigKeyboardDone(QString(keyboardBuffer));
+            break;
         }
         }
     }
@@ -386,6 +410,8 @@ void vrController::OnTimeoutPumpEvents()
                 break;
             }
         }
+    } else {
+        qDebug() << "thumbnail invalid i guess";
     }
 
 }
@@ -413,6 +439,16 @@ void vrController::SetWidget( QWidget *pWidget )
             (float)pWidget->height()
         };
         vr::VROverlay()->SetOverlayMouseScale( m_ulOverlayHandle, &vecWindowSize );
+
+        //set thumbnail
+        std::string iconPath = QApplication::applicationDirPath().toStdString() + "/res/icons/logo.png";
+        if (QFile::exists(QString::fromStdString(iconPath))) {
+                    vr::VROverlay()->SetOverlayFromFile(m_ulOverlayThumbnailHandle, iconPath.c_str());
+                } else {
+                    qDebug() << "Could not find thumbnail icon";
+                }
+
+
     }
 }
 

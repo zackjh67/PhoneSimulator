@@ -28,15 +28,13 @@ public slots:
     void connectToServer();
     void getNotification();
     void sendReply(QJsonObject reply);
+    void sendConnectIntent();
 
 private:
     QTcpSocket *tcpSocket = nullptr;
-
-    /* input stream */
     QDataStream in;
-
-    /* output stream */
-    QDataStream out;
+    quint32 size;
+    bool connectionSuccessful = false;
 };
 
 #endif // NOTIFICATIONHANDLER_H

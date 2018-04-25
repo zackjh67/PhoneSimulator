@@ -2,15 +2,18 @@
 #include <QMessageBox>
 #include "mainscreen.h"
 
+bool sizeRead = false;
+
 NotificationHandler::NotificationHandler(QObject *parent) : QObject(parent)
   , tcpSocket(new QTcpSocket(this))
 {
-    //data stream in
-    in.setDevice(tcpSocket);
-    //in.setVersion(QDataStream::Qt_DefaultCompiledVersion);
 
     //connect socket signals to slots
-    connect(tcpSocket, &QIODevice::readyRead, this, &NotificationHandler::getNotification);
+    connect(tcpSocket, &QAbstractSocket::connected, this, &NotificationHandler::sendConnectIntent); //connected
+    connect(tcpSocket, &QIODevice::readyRead, this, &NotificationHandler::getNotification);//ready to be read
+
+    tcpSocket->connectToHost("localhost", 6969);
+
 
     //TODO figure error signal out later
     //    connect(tcpSocket, qOverload<QAbstractSocket::SocketError>::of(&QAbstractSocket::error),
@@ -52,32 +55,85 @@ void NotificationHandler::displayError(QAbstractSocket::SocketError socketError)
 void NotificationHandler::getNotification()
 {
     //get message from socket
-    QString message = tcpSocket->readAll();
+    //QString message = tcpSocket->readAll();
+    qDebug() << "Data to be read!";
+    //ui->label->setText("Something was sent back");
 
-    //JDoc from QString
-    QJsonDocument jDoc = QJsonDocument::fromJson(message.toUtf8());
 
-    //JsonObject from JDoc
-    QJsonObject notif = jDoc.object();
 
-    //send signal to GUI and Controller
-    emit sigNotifReceived(notif);
+    QByteArray buffer;
+
+    if(!sizeRead){
+
+        buffer = tcpSocket->read(qint32(4)); //read first 4 bytes
+
+        QDataStream ds(buffer);
+
+        ds >> size;
+        qDebug() << "size of header:";
+        qDebug() << size;
+        sizeRead = true;
+        emit tcpSocket->readyRead();
+
+    } else {
+        //read the rest of the bytes
+        buffer = tcpSocket->read((qint32)size);
+
+        QDataStream ds(buffer);
+        QString messageReceived(buffer);
+
+        //ds >> test;
+        qDebug() << "message was received";
+        qDebug() << messageReceived;
+        sizeRead = false;
+
+        //successful connection response
+        if(messageReceived.compare("404 OK") == 0){
+            qDebug() << "Connected 404 ok";
+            //ui->label->setText("Connected");
+            //ui->pushButton->setEnabled(true);
+        } else {
+            //LOGIC
+
+            //JDoc from QString
+            QJsonDocument jDoc = QJsonDocument::fromJson(messageReceived.toUtf8());
+
+            //JsonObject from JDoc
+            QJsonObject notif = jDoc.object();
+
+            //send signal to GUI and Controller
+            emit sigNotifReceived(notif);
+
+        }
+
+
+
+}
 }
 
 void NotificationHandler::sendReply(QJsonObject reply)
 {
+        QJsonDocument doc(reply);
+            qDebug() << doc.toJson().simplified();
 
-    //convert json to doc
-    QJsonDocument jd (reply);
-    //doc to byteArray
-    QByteArray bytesToSend = jd.toJson();
+        QByteArray block;
+        QDataStream out(&block, QIODevice::WriteOnly);
 
-    //feed bytes to send into stream
+        out << doc.toJson().simplified();
+
+        tcpSocket->write(block, block.size());
+}
+
+void NotificationHandler::sendConnectIntent()
+{
+    QString connstr = "Connect";
+
     QByteArray block;
     QDataStream out(&block, QIODevice::WriteOnly);
-    //out.setVersion(QDataStream::Qt_DefaultCompiledVersion3);
-    out << bytesToSend;
 
-    tcpSocket->write(block);
+    out << connstr.toUtf8(); //send in utf encoding- size is appendedto front automtically
+
+    //write to socket
+    tcpSocket->write(block, block.size());
 }
 

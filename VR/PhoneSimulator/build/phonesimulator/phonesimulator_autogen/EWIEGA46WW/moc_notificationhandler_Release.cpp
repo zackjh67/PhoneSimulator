@@ -19,8 +19,8 @@
 
 QT_BEGIN_MOC_NAMESPACE
 struct qt_meta_stringdata_NotificationHandler_t {
-    QByteArrayData data[11];
-    char stringdata0[146];
+    QByteArrayData data[12];
+    char stringdata0[164];
 };
 #define QT_MOC_LITERAL(idx, ofs, len) \
     Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
@@ -39,13 +39,14 @@ QT_MOC_LITERAL(6, 86, 11), // "socketError"
 QT_MOC_LITERAL(7, 98, 15), // "connectToServer"
 QT_MOC_LITERAL(8, 114, 15), // "getNotification"
 QT_MOC_LITERAL(9, 130, 9), // "sendReply"
-QT_MOC_LITERAL(10, 140, 5) // "reply"
+QT_MOC_LITERAL(10, 140, 5), // "reply"
+QT_MOC_LITERAL(11, 146, 17) // "sendConnectIntent"
 
     },
     "NotificationHandler\0sigNotifReceived\0"
     "\0notif\0displayError\0QAbstractSocket::SocketError\0"
     "socketError\0connectToServer\0getNotification\0"
-    "sendReply\0reply"
+    "sendReply\0reply\0sendConnectIntent"
 };
 #undef QT_MOC_LITERAL
 
@@ -55,7 +56,7 @@ static const uint qt_meta_data_NotificationHandler[] = {
        7,       // revision
        0,       // classname
        0,    0, // classinfo
-       5,   14, // methods
+       6,   14, // methods
        0,    0, // properties
        0,    0, // enums/sets
        0,    0, // constructors
@@ -63,13 +64,14 @@ static const uint qt_meta_data_NotificationHandler[] = {
        1,       // signalCount
 
  // signals: name, argc, parameters, tag, flags
-       1,    1,   39,    2, 0x06 /* Public */,
+       1,    1,   44,    2, 0x06 /* Public */,
 
  // slots: name, argc, parameters, tag, flags
-       4,    1,   42,    2, 0x08 /* Private */,
-       7,    0,   45,    2, 0x0a /* Public */,
-       8,    0,   46,    2, 0x0a /* Public */,
-       9,    1,   47,    2, 0x0a /* Public */,
+       4,    1,   47,    2, 0x08 /* Private */,
+       7,    0,   50,    2, 0x0a /* Public */,
+       8,    0,   51,    2, 0x0a /* Public */,
+       9,    1,   52,    2, 0x0a /* Public */,
+      11,    0,   55,    2, 0x0a /* Public */,
 
  // signals: parameters
     QMetaType::Void, QMetaType::QJsonObject,    3,
@@ -79,6 +81,7 @@ static const uint qt_meta_data_NotificationHandler[] = {
     QMetaType::Void,
     QMetaType::Void,
     QMetaType::Void, QMetaType::QJsonObject,   10,
+    QMetaType::Void,
 
        0        // eod
 };
@@ -94,6 +97,7 @@ void NotificationHandler::qt_static_metacall(QObject *_o, QMetaObject::Call _c, 
         case 2: _t->connectToServer(); break;
         case 3: _t->getNotification(); break;
         case 4: _t->sendReply((*reinterpret_cast< QJsonObject(*)>(_a[1]))); break;
+        case 5: _t->sendConnectIntent(); break;
         default: ;
         }
     } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
@@ -145,13 +149,13 @@ int NotificationHandler::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
-        if (_id < 5)
+        if (_id < 6)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 5;
+        _id -= 6;
     } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
-        if (_id < 5)
+        if (_id < 6)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 5;
+        _id -= 6;
     }
     return _id;
 }

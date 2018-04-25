@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/Zack/Documents/PhoneSimulator/VR/PhoneSimulator
+# Install script for directory: E:/Zack/PhoneSimulator/VR/PhoneSimulator
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,7 +34,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("C:/Users/Zack/Documents/PhoneSimulator/VR/PhoneSimulator/build/phonesimulator/cmake_install.cmake")
+  include("E:/Zack/PhoneSimulator/VR/PhoneSimulator/build/phonesimulator/cmake_install.cmake")
 
 endif()
 
@@ -46,5 +46,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/Zack/Documents/PhoneSimulator/VR/PhoneSimulator/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "E:/Zack/PhoneSimulator/VR/PhoneSimulator/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

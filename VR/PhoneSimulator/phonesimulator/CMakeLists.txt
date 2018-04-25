@@ -18,6 +18,8 @@ add_executable(${TARGET_NAME}
   mainscreen.h
   notificationhandler.h
   notificationhandler.cpp
+  notificationviewer.h
+  notificationviewer.cpp
 )
 
 add_definitions(${QT_DEFINITIONS})

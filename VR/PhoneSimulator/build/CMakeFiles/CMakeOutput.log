@@ -10,8 +10,8 @@ Microsoft (R) Build Engine version 12.0.40629.0
 [Microsoft .NET Framework, version 4.0.30319.42000]
 Copyright (C) Microsoft Corporation. All rights reserved.
 
-Build started 4/9/2018 6:42:23 AM.
-Project "C:\Users\Zack\Documents\PhoneSimulator\VR\PhoneSimulator\build\CMakeFiles\3.10.0-rc1\CompilerIdC\CompilerIdC.vcxproj" on node 1 (default targets).
+Build started 4/19/2018 3:51:40 AM.
+Project "E:\Zack\PhoneSimulator\VR\PhoneSimulator\build\CMakeFiles\3.10.0-rc1\CompilerIdC\CompilerIdC.vcxproj" on node 1 (default targets).
 PrepareForBuild:
   Creating directory "Debug\".
   Creating directory "Debug\CompilerIdC.tlog\".
@@ -22,7 +22,7 @@ ClCompile:
   CMakeCCompilerId.c
 Link:
   C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdC.lib" /MACHINE:X64 Debug\CMakeCCompilerId.obj
-  CompilerIdC.vcxproj -> C:\Users\Zack\Documents\PhoneSimulator\VR\PhoneSimulator\build\CMakeFiles\3.10.0-rc1\CompilerIdC\.\CompilerIdC.exe
+  CompilerIdC.vcxproj -> E:\Zack\PhoneSimulator\VR\PhoneSimulator\build\CMakeFiles\3.10.0-rc1\CompilerIdC\.\CompilerIdC.exe
 PostBuildEvent:
   for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
   :VCEnd
@@ -30,7 +30,7 @@ PostBuildEvent:
 FinalizeBuildStatus:
   Deleting file "Debug\CompilerIdC.tlog\unsuccessfulbuild".
   Touching "Debug\CompilerIdC.tlog\CompilerIdC.lastbuildstate".
-Done Building Project "C:\Users\Zack\Documents\PhoneSimulator\VR\PhoneSimulator\build\CMakeFiles\3.10.0-rc1\CompilerIdC\CompilerIdC.vcxproj" (default targets).
+Done Building Project "E:\Zack\PhoneSimulator\VR\PhoneSimulator\build\CMakeFiles\3.10.0-rc1\CompilerIdC\CompilerIdC.vcxproj" (default targets).
 
 Build succeeded.
     0 Warning(s)
@@ -43,7 +43,7 @@ Compilation of the C compiler identification source "CMakeCCompilerId.c" produce
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
 
-The C compiler identification is MSVC, found in "C:/Users/Zack/Documents/PhoneSimulator/VR/PhoneSimulator/build/CMakeFiles/3.10.0-rc1/CompilerIdC/CompilerIdC.exe"
+The C compiler identification is MSVC, found in "E:/Zack/PhoneSimulator/VR/PhoneSimulator/build/CMakeFiles/3.10.0-rc1/CompilerIdC/CompilerIdC.exe"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
 Compiler:  
@@ -56,8 +56,8 @@ Microsoft (R) Build Engine version 12.0.40629.0
 [Microsoft .NET Framework, version 4.0.30319.42000]
 Copyright (C) Microsoft Corporation. All rights reserved.
 
-Build started 4/9/2018 6:42:24 AM.
-Project "C:\Users\Zack\Documents\PhoneSimulator\VR\PhoneSimulator\build\CMakeFiles\3.10.0-rc1\CompilerIdCXX\CompilerIdCXX.vcxproj" on node 1 (default targets).
+Build started 4/19/2018 3:51:40 AM.
+Project "E:\Zack\PhoneSimulator\VR\PhoneSimulator\build\CMakeFiles\3.10.0-rc1\CompilerIdCXX\CompilerIdCXX.vcxproj" on node 1 (default targets).
 PrepareForBuild:
   Creating directory "Debug\".
   Creating directory "Debug\CompilerIdCXX.tlog\".
@@ -68,7 +68,7 @@ ClCompile:
   CMakeCXXCompilerId.cpp
 Link:
   C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdCXX.lib" /MACHINE:X64 Debug\CMakeCXXCompilerId.obj
-  CompilerIdCXX.vcxproj -> C:\Users\Zack\Documents\PhoneSimulator\VR\PhoneSimulator\build\CMakeFiles\3.10.0-rc1\CompilerIdCXX\.\CompilerIdCXX.exe
+  CompilerIdCXX.vcxproj -> E:\Zack\PhoneSimulator\VR\PhoneSimulator\build\CMakeFiles\3.10.0-rc1\CompilerIdCXX\.\CompilerIdCXX.exe
 PostBuildEvent:
   for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
   :VCEnd
@@ -76,216 +76,216 @@ PostBuildEvent:
 FinalizeBuildStatus:
   Deleting file "Debug\CompilerIdCXX.tlog\unsuccessfulbuild".
   Touching "Debug\CompilerIdCXX.tlog\CompilerIdCXX.lastbuildstate".
-Done Building Project "C:\Users\Zack\Documents\PhoneSimulator\VR\PhoneSimulator\build\CMakeFiles\3.10.0-rc1\CompilerIdCXX\CompilerIdCXX.vcxproj" (default targets).
+Done Building Project "E:\Zack\PhoneSimulator\VR\PhoneSimulator\build\CMakeFiles\3.10.0-rc1\CompilerIdCXX\CompilerIdCXX.vcxproj" (default targets).
 
 Build succeeded.
     0 Warning(s)
     0 Error(s)
 
-Time Elapsed 00:00:00.59
+Time Elapsed 00:00:00.64
 
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
 
-The CXX compiler identification is MSVC, found in "C:/Users/Zack/Documents/PhoneSimulator/VR/PhoneSimulator/build/CMakeFiles/3.10.0-rc1/CompilerIdCXX/CompilerIdCXX.exe"
+The CXX compiler identification is MSVC, found in "E:/Zack/PhoneSimulator/VR/PhoneSimulator/build/CMakeFiles/3.10.0-rc1/CompilerIdCXX/CompilerIdCXX.exe"
 
 Determining if the C compiler works passed with the following output:
-Change Dir: C:/Users/Zack/Documents/PhoneSimulator/VR/PhoneSimulator/build/CMakeFiles/CMakeTmp
+Change Dir: E:/Zack/PhoneSimulator/VR/PhoneSimulator/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_d01e5.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_ad199.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
 Microsoft (R) Build Engine version 12.0.40629.0
 [Microsoft .NET Framework, version 4.0.30319.42000]
 Copyright (C) Microsoft Corporation. All rights reserved.
 
-Build started 4/9/2018 6:42:25 AM.
-Project "C:\Users\Zack\Documents\PhoneSimulator\VR\PhoneSimulator\build\CMakeFiles\CMakeTmp\cmTC_d01e5.vcxproj" on node 1 (default targets).
+Build started 4/19/2018 3:51:41 AM.
+Project "E:\Zack\PhoneSimulator\VR\PhoneSimulator\build\CMakeFiles\CMakeTmp\cmTC_ad199.vcxproj" on node 1 (default targets).
 PrepareForBuild:
-  Creating directory "cmTC_d01e5.dir\Debug\".
-  Creating directory "C:\Users\Zack\Documents\PhoneSimulator\VR\PhoneSimulator\build\CMakeFiles\CMakeTmp\Debug\".
-  Creating directory "cmTC_d01e5.dir\Debug\cmTC_d01e5.tlog\".
+  Creating directory "cmTC_ad199.dir\Debug\".
+  Creating directory "E:\Zack\PhoneSimulator\VR\PhoneSimulator\build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_ad199.dir\Debug\cmTC_ad199.tlog\".
 InitializeBuildStatus:
-  Creating "cmTC_d01e5.dir\Debug\cmTC_d01e5.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  Creating "cmTC_ad199.dir\Debug\cmTC_ad199.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
 ClCompile:
-  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_d01e5.dir\Debug\\" /Fd"cmTC_d01e5.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue C:\Users\Zack\Documents\PhoneSimulator\VR\PhoneSimulator\build\CMakeFiles\CMakeTmp\testCCompiler.c
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_ad199.dir\Debug\\" /Fd"cmTC_ad199.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue E:\Zack\PhoneSimulator\VR\PhoneSimulator\build\CMakeFiles\CMakeTmp\testCCompiler.c
   Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x64
   Copyright (C) Microsoft Corporation.  All rights reserved.
   
-  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_d01e5.dir\Debug\\" /Fd"cmTC_d01e5.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue C:\Users\Zack\Documents\PhoneSimulator\VR\PhoneSimulator\build\CMakeFiles\CMakeTmp\testCCompiler.c
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_ad199.dir\Debug\\" /Fd"cmTC_ad199.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue E:\Zack\PhoneSimulator\VR\PhoneSimulator\build\CMakeFiles\CMakeTmp\testCCompiler.c
   
   testCCompiler.c
 Link:
-  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Zack\Documents\PhoneSimulator\VR\PhoneSimulator\build\CMakeFiles\CMakeTmp\Debug\cmTC_d01e5.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Zack/Documents/PhoneSimulator/VR/PhoneSimulator/build/CMakeFiles/CMakeTmp/Debug/cmTC_d01e5.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Zack/Documents/PhoneSimulator/VR/PhoneSimulator/build/CMakeFiles/CMakeTmp/Debug/cmTC_d01e5.lib" /MACHINE:X64  /machine:x64 cmTC_d01e5.dir\Debug\testCCompiler.obj
-  cmTC_d01e5.vcxproj -> C:\Users\Zack\Documents\PhoneSimulator\VR\PhoneSimulator\build\CMakeFiles\CMakeTmp\Debug\cmTC_d01e5.exe
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"E:\Zack\PhoneSimulator\VR\PhoneSimulator\build\CMakeFiles\CMakeTmp\Debug\cmTC_ad199.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/Zack/PhoneSimulator/VR/PhoneSimulator/build/CMakeFiles/CMakeTmp/Debug/cmTC_ad199.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/Zack/PhoneSimulator/VR/PhoneSimulator/build/CMakeFiles/CMakeTmp/Debug/cmTC_ad199.lib" /MACHINE:X64  /machine:x64 cmTC_ad199.dir\Debug\testCCompiler.obj
+  cmTC_ad199.vcxproj -> E:\Zack\PhoneSimulator\VR\PhoneSimulator\build\CMakeFiles\CMakeTmp\Debug\cmTC_ad199.exe
 FinalizeBuildStatus:
-  Deleting file "cmTC_d01e5.dir\Debug\cmTC_d01e5.tlog\unsuccessfulbuild".
-  Touching "cmTC_d01e5.dir\Debug\cmTC_d01e5.tlog\cmTC_d01e5.lastbuildstate".
-Done Building Project "C:\Users\Zack\Documents\PhoneSimulator\VR\PhoneSimulator\build\CMakeFiles\CMakeTmp\cmTC_d01e5.vcxproj" (default targets).
+  Deleting file "cmTC_ad199.dir\Debug\cmTC_ad199.tlog\unsuccessfulbuild".
+  Touching "cmTC_ad199.dir\Debug\cmTC_ad199.tlog\cmTC_ad199.lastbuildstate".
+Done Building Project "E:\Zack\PhoneSimulator\VR\PhoneSimulator\build\CMakeFiles\CMakeTmp\cmTC_ad199.vcxproj" (default targets).
 
 Build succeeded.
     0 Warning(s)
     0 Error(s)
 
-Time Elapsed 00:00:00.88
+Time Elapsed 00:00:00.94
 
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: C:/Users/Zack/Documents/PhoneSimulator/VR/PhoneSimulator/build/CMakeFiles/CMakeTmp
+Change Dir: E:/Zack/PhoneSimulator/VR/PhoneSimulator/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_50ab4.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_97271.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
 Microsoft (R) Build Engine version 12.0.40629.0
 [Microsoft .NET Framework, version 4.0.30319.42000]
 Copyright (C) Microsoft Corporation. All rights reserved.
 
-Build started 4/9/2018 6:42:26 AM.
-Project "C:\Users\Zack\Documents\PhoneSimulator\VR\PhoneSimulator\build\CMakeFiles\CMakeTmp\cmTC_50ab4.vcxproj" on node 1 (default targets).
+Build started 4/19/2018 3:51:43 AM.
+Project "E:\Zack\PhoneSimulator\VR\PhoneSimulator\build\CMakeFiles\CMakeTmp\cmTC_97271.vcxproj" on node 1 (default targets).
 PrepareForBuild:
-  Creating directory "cmTC_50ab4.dir\Debug\".
-  Creating directory "C:\Users\Zack\Documents\PhoneSimulator\VR\PhoneSimulator\build\CMakeFiles\CMakeTmp\Debug\".
-  Creating directory "cmTC_50ab4.dir\Debug\cmTC_50ab4.tlog\".
+  Creating directory "cmTC_97271.dir\Debug\".
+  Creating directory "E:\Zack\PhoneSimulator\VR\PhoneSimulator\build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_97271.dir\Debug\cmTC_97271.tlog\".
 InitializeBuildStatus:
-  Creating "cmTC_50ab4.dir\Debug\cmTC_50ab4.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  Creating "cmTC_97271.dir\Debug\cmTC_97271.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
 ClCompile:
-  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_50ab4.dir\Debug\\" /Fd"cmTC_50ab4.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCCompilerABI.c"
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_97271.dir\Debug\\" /Fd"cmTC_97271.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCCompilerABI.c"
   Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x64
   Copyright (C) Microsoft Corporation.  All rights reserved.
   
-  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_50ab4.dir\Debug\\" /Fd"cmTC_50ab4.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCCompilerABI.c"
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_97271.dir\Debug\\" /Fd"cmTC_97271.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCCompilerABI.c"
   
   CMakeCCompilerABI.c
 Link:
-  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Zack\Documents\PhoneSimulator\VR\PhoneSimulator\build\CMakeFiles\CMakeTmp\Debug\cmTC_50ab4.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Zack/Documents/PhoneSimulator/VR/PhoneSimulator/build/CMakeFiles/CMakeTmp/Debug/cmTC_50ab4.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Zack/Documents/PhoneSimulator/VR/PhoneSimulator/build/CMakeFiles/CMakeTmp/Debug/cmTC_50ab4.lib" /MACHINE:X64  /machine:x64 cmTC_50ab4.dir\Debug\CMakeCCompilerABI.obj
-  cmTC_50ab4.vcxproj -> C:\Users\Zack\Documents\PhoneSimulator\VR\PhoneSimulator\build\CMakeFiles\CMakeTmp\Debug\cmTC_50ab4.exe
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"E:\Zack\PhoneSimulator\VR\PhoneSimulator\build\CMakeFiles\CMakeTmp\Debug\cmTC_97271.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/Zack/PhoneSimulator/VR/PhoneSimulator/build/CMakeFiles/CMakeTmp/Debug/cmTC_97271.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/Zack/PhoneSimulator/VR/PhoneSimulator/build/CMakeFiles/CMakeTmp/Debug/cmTC_97271.lib" /MACHINE:X64  /machine:x64 cmTC_97271.dir\Debug\CMakeCCompilerABI.obj
+  cmTC_97271.vcxproj -> E:\Zack\PhoneSimulator\VR\PhoneSimulator\build\CMakeFiles\CMakeTmp\Debug\cmTC_97271.exe
 FinalizeBuildStatus:
-  Deleting file "cmTC_50ab4.dir\Debug\cmTC_50ab4.tlog\unsuccessfulbuild".
-  Touching "cmTC_50ab4.dir\Debug\cmTC_50ab4.tlog\cmTC_50ab4.lastbuildstate".
-Done Building Project "C:\Users\Zack\Documents\PhoneSimulator\VR\PhoneSimulator\build\CMakeFiles\CMakeTmp\cmTC_50ab4.vcxproj" (default targets).
+  Deleting file "cmTC_97271.dir\Debug\cmTC_97271.tlog\unsuccessfulbuild".
+  Touching "cmTC_97271.dir\Debug\cmTC_97271.tlog\cmTC_97271.lastbuildstate".
+Done Building Project "E:\Zack\PhoneSimulator\VR\PhoneSimulator\build\CMakeFiles\CMakeTmp\cmTC_97271.vcxproj" (default targets).
 
 Build succeeded.
     0 Warning(s)
     0 Error(s)
 
-Time Elapsed 00:00:00.63
+Time Elapsed 00:00:00.72
 
 
 Determining if the CXX compiler works passed with the following output:
-Change Dir: C:/Users/Zack/Documents/PhoneSimulator/VR/PhoneSimulator/build/CMakeFiles/CMakeTmp
+Change Dir: E:/Zack/PhoneSimulator/VR/PhoneSimulator/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_85614.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_acf84.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
 Microsoft (R) Build Engine version 12.0.40629.0
 [Microsoft .NET Framework, version 4.0.30319.42000]
 Copyright (C) Microsoft Corporation. All rights reserved.
 
-Build started 4/9/2018 6:42:27 AM.
-Project "C:\Users\Zack\Documents\PhoneSimulator\VR\PhoneSimulator\build\CMakeFiles\CMakeTmp\cmTC_85614.vcxproj" on node 1 (default targets).
+Build started 4/19/2018 3:51:44 AM.
+Project "E:\Zack\PhoneSimulator\VR\PhoneSimulator\build\CMakeFiles\CMakeTmp\cmTC_acf84.vcxproj" on node 1 (default targets).
 PrepareForBuild:
-  Creating directory "cmTC_85614.dir\Debug\".
-  Creating directory "C:\Users\Zack\Documents\PhoneSimulator\VR\PhoneSimulator\build\CMakeFiles\CMakeTmp\Debug\".
-  Creating directory "cmTC_85614.dir\Debug\cmTC_85614.tlog\".
+  Creating directory "cmTC_acf84.dir\Debug\".
+  Creating directory "E:\Zack\PhoneSimulator\VR\PhoneSimulator\build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_acf84.dir\Debug\cmTC_acf84.tlog\".
 InitializeBuildStatus:
-  Creating "cmTC_85614.dir\Debug\cmTC_85614.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  Creating "cmTC_acf84.dir\Debug\cmTC_acf84.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
 ClCompile:
-  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTC_85614.dir\Debug\\" /Fd"cmTC_85614.dir\Debug\vc120.pdb" /Gd /TP /errorReport:queue C:\Users\Zack\Documents\PhoneSimulator\VR\PhoneSimulator\build\CMakeFiles\CMakeTmp\testCXXCompiler.cxx
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTC_acf84.dir\Debug\\" /Fd"cmTC_acf84.dir\Debug\vc120.pdb" /Gd /TP /errorReport:queue E:\Zack\PhoneSimulator\VR\PhoneSimulator\build\CMakeFiles\CMakeTmp\testCXXCompiler.cxx
   Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x64
   Copyright (C) Microsoft Corporation.  All rights reserved.
   
-  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTC_85614.dir\Debug\\" /Fd"cmTC_85614.dir\Debug\vc120.pdb" /Gd /TP /errorReport:queue C:\Users\Zack\Documents\PhoneSimulator\VR\PhoneSimulator\build\CMakeFiles\CMakeTmp\testCXXCompiler.cxx
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTC_acf84.dir\Debug\\" /Fd"cmTC_acf84.dir\Debug\vc120.pdb" /Gd /TP /errorReport:queue E:\Zack\PhoneSimulator\VR\PhoneSimulator\build\CMakeFiles\CMakeTmp\testCXXCompiler.cxx
   
   testCXXCompiler.cxx
 Link:
-  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Zack\Documents\PhoneSimulator\VR\PhoneSimulator\build\CMakeFiles\CMakeTmp\Debug\cmTC_85614.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Zack/Documents/PhoneSimulator/VR/PhoneSimulator/build/CMakeFiles/CMakeTmp/Debug/cmTC_85614.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Zack/Documents/PhoneSimulator/VR/PhoneSimulator/build/CMakeFiles/CMakeTmp/Debug/cmTC_85614.lib" /MACHINE:X64  /machine:x64 cmTC_85614.dir\Debug\testCXXCompiler.obj
-  cmTC_85614.vcxproj -> C:\Users\Zack\Documents\PhoneSimulator\VR\PhoneSimulator\build\CMakeFiles\CMakeTmp\Debug\cmTC_85614.exe
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"E:\Zack\PhoneSimulator\VR\PhoneSimulator\build\CMakeFiles\CMakeTmp\Debug\cmTC_acf84.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/Zack/PhoneSimulator/VR/PhoneSimulator/build/CMakeFiles/CMakeTmp/Debug/cmTC_acf84.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/Zack/PhoneSimulator/VR/PhoneSimulator/build/CMakeFiles/CMakeTmp/Debug/cmTC_acf84.lib" /MACHINE:X64  /machine:x64 cmTC_acf84.dir\Debug\testCXXCompiler.obj
+  cmTC_acf84.vcxproj -> E:\Zack\PhoneSimulator\VR\PhoneSimulator\build\CMakeFiles\CMakeTmp\Debug\cmTC_acf84.exe
 FinalizeBuildStatus:
-  Deleting file "cmTC_85614.dir\Debug\cmTC_85614.tlog\unsuccessfulbuild".
-  Touching "cmTC_85614.dir\Debug\cmTC_85614.tlog\cmTC_85614.lastbuildstate".
-Done Building Project "C:\Users\Zack\Documents\PhoneSimulator\VR\PhoneSimulator\build\CMakeFiles\CMakeTmp\cmTC_85614.vcxproj" (default targets).
+  Deleting file "cmTC_acf84.dir\Debug\cmTC_acf84.tlog\unsuccessfulbuild".
+  Touching "cmTC_acf84.dir\Debug\cmTC_acf84.tlog\cmTC_acf84.lastbuildstate".
+Done Building Project "E:\Zack\PhoneSimulator\VR\PhoneSimulator\build\CMakeFiles\CMakeTmp\cmTC_acf84.vcxproj" (default targets).
 
 Build succeeded.
     0 Warning(s)
     0 Error(s)
 
-Time Elapsed 00:00:00.66
+Time Elapsed 00:00:00.70
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: C:/Users/Zack/Documents/PhoneSimulator/VR/PhoneSimulator/build/CMakeFiles/CMakeTmp
+Change Dir: E:/Zack/PhoneSimulator/VR/PhoneSimulator/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_9a1e5.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_69e07.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
 Microsoft (R) Build Engine version 12.0.40629.0
 [Microsoft .NET Framework, version 4.0.30319.42000]
 Copyright (C) Microsoft Corporation. All rights reserved.
 
-Build started 4/9/2018 6:42:28 AM.
-Project "C:\Users\Zack\Documents\PhoneSimulator\VR\PhoneSimulator\build\CMakeFiles\CMakeTmp\cmTC_9a1e5.vcxproj" on node 1 (default targets).
+Build started 4/19/2018 3:51:44 AM.
+Project "E:\Zack\PhoneSimulator\VR\PhoneSimulator\build\CMakeFiles\CMakeTmp\cmTC_69e07.vcxproj" on node 1 (default targets).
 PrepareForBuild:
-  Creating directory "cmTC_9a1e5.dir\Debug\".
-  Creating directory "C:\Users\Zack\Documents\PhoneSimulator\VR\PhoneSimulator\build\CMakeFiles\CMakeTmp\Debug\".
-  Creating directory "cmTC_9a1e5.dir\Debug\cmTC_9a1e5.tlog\".
+  Creating directory "cmTC_69e07.dir\Debug\".
+  Creating directory "E:\Zack\PhoneSimulator\VR\PhoneSimulator\build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_69e07.dir\Debug\cmTC_69e07.tlog\".
 InitializeBuildStatus:
-  Creating "cmTC_9a1e5.dir\Debug\cmTC_9a1e5.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  Creating "cmTC_69e07.dir\Debug\cmTC_69e07.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
 ClCompile:
-  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTC_9a1e5.dir\Debug\\" /Fd"cmTC_9a1e5.dir\Debug\vc120.pdb" /Gd /TP /errorReport:queue "C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCXXCompilerABI.cpp"
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTC_69e07.dir\Debug\\" /Fd"cmTC_69e07.dir\Debug\vc120.pdb" /Gd /TP /errorReport:queue "C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCXXCompilerABI.cpp"
   Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x64
   Copyright (C) Microsoft Corporation.  All rights reserved.
   
-  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTC_9a1e5.dir\Debug\\" /Fd"cmTC_9a1e5.dir\Debug\vc120.pdb" /Gd /TP /errorReport:queue "C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCXXCompilerABI.cpp"
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTC_69e07.dir\Debug\\" /Fd"cmTC_69e07.dir\Debug\vc120.pdb" /Gd /TP /errorReport:queue "C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCXXCompilerABI.cpp"
   
   CMakeCXXCompilerABI.cpp
 Link:
-  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Zack\Documents\PhoneSimulator\VR\PhoneSimulator\build\CMakeFiles\CMakeTmp\Debug\cmTC_9a1e5.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Zack/Documents/PhoneSimulator/VR/PhoneSimulator/build/CMakeFiles/CMakeTmp/Debug/cmTC_9a1e5.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Zack/Documents/PhoneSimulator/VR/PhoneSimulator/build/CMakeFiles/CMakeTmp/Debug/cmTC_9a1e5.lib" /MACHINE:X64  /machine:x64 cmTC_9a1e5.dir\Debug\CMakeCXXCompilerABI.obj
-  cmTC_9a1e5.vcxproj -> C:\Users\Zack\Documents\PhoneSimulator\VR\PhoneSimulator\build\CMakeFiles\CMakeTmp\Debug\cmTC_9a1e5.exe
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"E:\Zack\PhoneSimulator\VR\PhoneSimulator\build\CMakeFiles\CMakeTmp\Debug\cmTC_69e07.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/Zack/PhoneSimulator/VR/PhoneSimulator/build/CMakeFiles/CMakeTmp/Debug/cmTC_69e07.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/Zack/PhoneSimulator/VR/PhoneSimulator/build/CMakeFiles/CMakeTmp/Debug/cmTC_69e07.lib" /MACHINE:X64  /machine:x64 cmTC_69e07.dir\Debug\CMakeCXXCompilerABI.obj
+  cmTC_69e07.vcxproj -> E:\Zack\PhoneSimulator\VR\PhoneSimulator\build\CMakeFiles\CMakeTmp\Debug\cmTC_69e07.exe
 FinalizeBuildStatus:
-  Deleting file "cmTC_9a1e5.dir\Debug\cmTC_9a1e5.tlog\unsuccessfulbuild".
-  Touching "cmTC_9a1e5.dir\Debug\cmTC_9a1e5.tlog\cmTC_9a1e5.lastbuildstate".
-Done Building Project "C:\Users\Zack\Documents\PhoneSimulator\VR\PhoneSimulator\build\CMakeFiles\CMakeTmp\cmTC_9a1e5.vcxproj" (default targets).
+  Deleting file "cmTC_69e07.dir\Debug\cmTC_69e07.tlog\unsuccessfulbuild".
+  Touching "cmTC_69e07.dir\Debug\cmTC_69e07.tlog\cmTC_69e07.lastbuildstate".
+Done Building Project "E:\Zack\PhoneSimulator\VR\PhoneSimulator\build\CMakeFiles\CMakeTmp\cmTC_69e07.vcxproj" (default targets).
 
 Build succeeded.
     0 Warning(s)
     0 Error(s)
 
-Time Elapsed 00:00:00.65
+Time Elapsed 00:00:00.72
 
 
 
 
 Detecting CXX [] compiler features compiled with the following output:
-Change Dir: C:/Users/Zack/Documents/PhoneSimulator/VR/PhoneSimulator/build/CMakeFiles/CMakeTmp
+Change Dir: E:/Zack/PhoneSimulator/VR/PhoneSimulator/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_60350.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_3ef47.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
 Microsoft (R) Build Engine version 12.0.40629.0
 [Microsoft .NET Framework, version 4.0.30319.42000]
 Copyright (C) Microsoft Corporation. All rights reserved.
 
-Build started 4/9/2018 6:42:29 AM.
-Project "C:\Users\Zack\Documents\PhoneSimulator\VR\PhoneSimulator\build\CMakeFiles\CMakeTmp\cmTC_60350.vcxproj" on node 1 (default targets).
+Build started 4/19/2018 3:51:46 AM.
+Project "E:\Zack\PhoneSimulator\VR\PhoneSimulator\build\CMakeFiles\CMakeTmp\cmTC_3ef47.vcxproj" on node 1 (default targets).
 PrepareForBuild:
-  Creating directory "cmTC_60350.dir\Debug\".
-  Creating directory "C:\Users\Zack\Documents\PhoneSimulator\VR\PhoneSimulator\build\CMakeFiles\CMakeTmp\Debug\".
-  Creating directory "cmTC_60350.dir\Debug\cmTC_60350.tlog\".
+  Creating directory "cmTC_3ef47.dir\Debug\".
+  Creating directory "E:\Zack\PhoneSimulator\VR\PhoneSimulator\build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_3ef47.dir\Debug\cmTC_3ef47.tlog\".
 InitializeBuildStatus:
-  Creating "cmTC_60350.dir\Debug\cmTC_60350.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  Creating "cmTC_3ef47.dir\Debug\cmTC_3ef47.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
 ClCompile:
-  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTC_60350.dir\Debug\\" /Fd"cmTC_60350.dir\Debug\vc120.pdb" /Gd /TP /errorReport:queue C:\Users\Zack\Documents\PhoneSimulator\VR\PhoneSimulator\build\CMakeFiles\feature_tests.cxx
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTC_3ef47.dir\Debug\\" /Fd"cmTC_3ef47.dir\Debug\vc120.pdb" /Gd /TP /errorReport:queue E:\Zack\PhoneSimulator\VR\PhoneSimulator\build\CMakeFiles\feature_tests.cxx
   Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x64
   Copyright (C) Microsoft Corporation.  All rights reserved.
   
-  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTC_60350.dir\Debug\\" /Fd"cmTC_60350.dir\Debug\vc120.pdb" /Gd /TP /errorReport:queue C:\Users\Zack\Documents\PhoneSimulator\VR\PhoneSimulator\build\CMakeFiles\feature_tests.cxx
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTC_3ef47.dir\Debug\\" /Fd"cmTC_3ef47.dir\Debug\vc120.pdb" /Gd /TP /errorReport:queue E:\Zack\PhoneSimulator\VR\PhoneSimulator\build\CMakeFiles\feature_tests.cxx
   
   feature_tests.cxx
 Link:
-  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Zack\Documents\PhoneSimulator\VR\PhoneSimulator\build\CMakeFiles\CMakeTmp\Debug\cmTC_60350.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Zack/Documents/PhoneSimulator/VR/PhoneSimulator/build/CMakeFiles/CMakeTmp/Debug/cmTC_60350.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Zack/Documents/PhoneSimulator/VR/PhoneSimulator/build/CMakeFiles/CMakeTmp/Debug/cmTC_60350.lib" /MACHINE:X64  /machine:x64 cmTC_60350.dir\Debug\feature_tests.obj
-  cmTC_60350.vcxproj -> C:\Users\Zack\Documents\PhoneSimulator\VR\PhoneSimulator\build\CMakeFiles\CMakeTmp\Debug\cmTC_60350.exe
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"E:\Zack\PhoneSimulator\VR\PhoneSimulator\build\CMakeFiles\CMakeTmp\Debug\cmTC_3ef47.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/Zack/PhoneSimulator/VR/PhoneSimulator/build/CMakeFiles/CMakeTmp/Debug/cmTC_3ef47.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/Zack/PhoneSimulator/VR/PhoneSimulator/build/CMakeFiles/CMakeTmp/Debug/cmTC_3ef47.lib" /MACHINE:X64  /machine:x64 cmTC_3ef47.dir\Debug\feature_tests.obj
+  cmTC_3ef47.vcxproj -> E:\Zack\PhoneSimulator\VR\PhoneSimulator\build\CMakeFiles\CMakeTmp\Debug\cmTC_3ef47.exe
 FinalizeBuildStatus:
-  Deleting file "cmTC_60350.dir\Debug\cmTC_60350.tlog\unsuccessfulbuild".
-  Touching "cmTC_60350.dir\Debug\cmTC_60350.tlog\cmTC_60350.lastbuildstate".
-Done Building Project "C:\Users\Zack\Documents\PhoneSimulator\VR\PhoneSimulator\build\CMakeFiles\CMakeTmp\cmTC_60350.vcxproj" (default targets).
+  Deleting file "cmTC_3ef47.dir\Debug\cmTC_3ef47.tlog\unsuccessfulbuild".
+  Touching "cmTC_3ef47.dir\Debug\cmTC_3ef47.tlog\cmTC_3ef47.lastbuildstate".
+Done Building Project "E:\Zack\PhoneSimulator\VR\PhoneSimulator\build\CMakeFiles\CMakeTmp\cmTC_3ef47.vcxproj" (default targets).
 
 Build succeeded.
     0 Warning(s)
     0 Error(s)
 
-Time Elapsed 00:00:00.64
+Time Elapsed 00:00:00.72
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
